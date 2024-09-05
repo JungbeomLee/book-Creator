@@ -1,0 +1,171 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #f3e5ab, #f0d89b);
+    font-family: "Dongle", sans-serif; /* 폰트 설정 */
+}
+
+.loading-spinner {
+    display: none;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #8d6e63;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.book-background {
+    width: 850px;  /* 책보다 조금 더 크게 설정 */
+    height: 650px; /* 책보다 조금 더 크게 설정 */
+    background-color: #8d6e63; /* 표지 색상 */
+    border-radius: 25px; /* 표지 모서리 둥글게 설정 */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* 표지의 그림자 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-wrapper {
+    position: relative;
+    width: 800px; /* 책의 크기를 더 키움 */
+    height: 600px; /* 책의 크기를 더 키움 */
+    perspective: 2000px;
+}
+
+.book {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.book-left, .book-right {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.2); /* 맞닿는 부분에만 그림자 적용 */
+    position: relative;
+    font-family: "Dongle", sans-serif; /* 폰트 설정 */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 콘텐츠를 가로세로 중앙에 배치 */
+}
+
+.book-left {
+    z-index: 3; /* 왼쪽 페이지가 오른쪽 페이지 아래에 깔리지 않도록 설정 */
+    border-right: 2px solid #ccc;
+}
+
+.book-spine {
+    width: 20px;  /* 책의 두께를 조금 더 두껍게 조정 */
+    height: 100%;
+    background-color: #d3b89b;
+    position: absolute;
+    left: calc(50% - 10px);  /* 가운데 정렬 */
+    top: 0;
+    box-shadow: inset -5px 0 5px rgba(0, 0, 0, 0.2), inset 5px 0 5px rgba(0, 0, 0, 0.2); /* 양쪽에 그림자 추가 */
+    z-index: 2;  /* spine이 페이지 사이에 나타나도록 설정 */
+}
+
+.book-right {
+    z-index: 3; /* 오른쪽 페이지가 spine 위에 오도록 설정 */
+    transform-origin: left;
+    transition: transform 0.6s ease;
+}
+
+.book-right:hover {
+    transform: rotateY(-20deg);
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.2); /* 맞닿는 부분에 그림자 적용 */
+}
+
+.book-right-pages1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #adadad;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    transform-origin: left;
+    z-index: 2; /* book-right 페이지 아래에 위치하도록 설정 */
+    transition: transform 0.6s ease; /* 부드러운 변화를 위해 트랜지션 추가 */
+}
+
+.book-right-pages2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #8a8a8a;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    transform-origin: left;
+    z-index: 1; /* book-right 페이지 아래에 위치하도록 설정 */
+    transition: transform 0.6s ease; /* 부드러운 변화를 위해 트랜지션 추가 */
+}
+
+.book-right:hover ~ .book-right-pages1 {
+    right: -5px;
+    transform: rotateY(-15deg);
+}
+
+.book-right:hover ~ .book-right-pages2 {
+    right: -10px;
+    transform: rotateY(-10deg);
+}
+
+.page-content {
+    text-align: center;
+    font-family: "Dongle", sans-serif; /* 폰트 설정 */
+}
+
+h1 {
+    font-size: 48px; /* 텍스트 크기를 책 크기에 맞게 키움 */
+    color: #343a40;
+    margin-bottom: 20px;
+    font-family: "Dongle", sans-serif; /* 폰트 설정 */
+}
+
+p {
+    font-size: 24px; /* 추가된 p 태그의 텍스트 크기 */
+    color: #343a40;
+    margin-bottom: 20px;
+    font-family: "Dongle", sans-serif; /* 폰트 설정 */
+}
+
+.start-button {
+    padding: 20px 40px; /* 버튼의 크기를 키움 */
+    font-size: 32px; /* 버튼 텍스트 크기 증가 */
+    color: #ffffff;
+    background-color: #8d6e63;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+    font-family: "Dongle", sans-serif; /* 폰트 설정 */
+}
+
+.start-button:hover {
+    background-color: #6d4c41;
+}

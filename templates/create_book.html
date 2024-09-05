@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/create_book.css">
+</head>
+<body>
+    <div class="book-background">
+        <div class="book-wrapper">
+            <div class="book">
+                <div class="book-left">
+                    <div class="page-content">
+                        <h1>우리 아이만의 동화</h1>
+                        <p>우리 아이가 써내려가는 동화를 만들어 보세요!</p>
+                    </div>
+                </div>
+                <div class="book-right">
+                    <div class="page-content">
+                        <h1>책 생성 시작하기</h1>
+                        <button id='create_book' class="start-button">시작하기</button>
+                        <div class="loading-spinner" id="loading_spinner"></div> <!-- 로딩 스피너 -->
+                    </div>
+                </div>
+                <div class="book-right-pages1"></div>
+                <div class="book-right-pages2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/create_book.js"></script>
+</body>
+</html>

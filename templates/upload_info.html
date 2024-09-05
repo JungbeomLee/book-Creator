@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 동화책 - 정보 입력</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/upload_info.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>우리 아이 정보 입력</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">이름</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">성별</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">남자</option>
+                        <option value="female">여자</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="age">나이</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                <div class="form-group">
+                    <label for="genre">선호 장르</label>
+                    <input type="text" id="genre" name="genre" required>
+                </div>
+                <div class="form-group">
+                    <label for="likes">좋아하는 것</label>
+                    <input type="text" id="likes" name="likes" required>
+                </div>
+                <div class="form-group">
+                    <label for="teach">가르치고 싶은 것</label>
+                    <input type="text" id="teach" name="teach" required>
+                </div>
+                <button type="submit" id="info_submit">동화 만들기 시작</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../static/js/upload_info.js"></script>
+</body>
+</html>

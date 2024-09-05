@@ -1,0 +1,231 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+body {
+  margin: 4em;
+  background: #f3e5ab;
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 12px;
+}
+
+.jch-flipbook {
+  --pageWidth: 80vw;
+  --pageHeight: 85vh;
+}
+.jch-flipbook-container {
+  width: var(--pageWidth);
+  height: var(--pageHeight);
+  position: relative;
+  z-index: 1;
+  perspective: 1300px;
+  backface-visibility: hidden;
+}
+.jch-flipbook-page {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition-property: transform;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  transform-origin: left center;
+}
+/* 페이지 내 이미지가 전체를 차지하도록 설정 */
+.jch-flipbook-page img {
+  pointer-events: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지 비율을 유지하며, 페이지에 맞추어 크기 조정 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(0.7);
+}
+
+.jch-flipbook-page > div {
+  width: 100%;
+  transform-style: preserve-3d;
+}
+.jch-flipbook-back {
+  transform: rotateY(-180deg);
+}
+.jch-flipbook-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 200%;
+}
+.jch-flipbook-outer {
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+}
+.jch-flipbook [data-page] {
+  transition: transform 1s ease-in-out;
+}
+.jch-flipbook-front .jch-flipbook-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-right: 4vw;
+}
+.jch-flipbook-back .jch-flipbook-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-right: 4vw;
+}
+.jch-flipbook-theme h5 {
+  font-family: sans-serif;
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-weight: 700;
+  line-height: 1.4;
+  text-shadow: 1vw 1vw 2vw black;
+  opacity: 0.9;
+  white-space: nowrap;
+  text-align: center; /* 중앙 정렬 추가 */
+  margin: 0 auto; /* 가운데 정렬을 위한 마진 추가 */
+  display: block; /* 중앙 정렬을 위해 블록 레벨 요소로 설정 */
+}
+.jch-flipbook-theme p,
+.jch-flipbook-theme a[href] {
+  font-size: 1.4vw;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.jch-flipbook-theme a[href]:hover, .jch-flipbook-theme a[href]:link, .jch-flipbook-theme a[href]:visited, .jch-flipbook-theme a[href]:active {
+  color: white;
+}
+
+.jch-flipbook #first,
+.jch-flipbook #first .jch-flipbook-back {
+  transform: rotateY(180deg);
+}
+
+.jch-flipbook-page > div,
+.jch-flipbook-outer,
+.jch-flipbook-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.jch-flipbook-content img {
+  width: 100%;
+  height: auto;
+}
+
+/* problematic class: `.content` */
+.jch-flipbook-content {
+  width: 100%;
+}
+
+.jch-flipbook-front .jch-flipbook-content {
+  left: 0;
+}
+
+/* - - - - - */
+/* Controls */
+/* - - - - - */
+#jch-flipbook-prev, #jch-flipbook-next {
+  box-sizing: border-box;
+  position: absolute;
+  width: 4vw;
+  padding-top: 1vw;
+  font-size: 3vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  z-index: 999;
+  color: rgba(255, 255, 255, 0.5);
+}
+#jch-flipbook-prev:hover, #jch-flipbook-next:hover {
+  background: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+#jch-flipbook-prev {
+  top: 0;
+  left: 0;
+}
+#jch-flipbook-next {
+  top: 0;
+  left: calc(100% - 4vw);
+}
+
+.jch-flipbook-container {
+  box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.2);
+  background: transparent;
+}
+.jch-flipbook-back .jch-flipbook-content {
+  background: transparent linear-gradient(to right, transparent 92%, hsla(0, 0%, 0%, 0.4) 100%);
+}
+.jch-flipbook-front .jch-flipbook-content {
+  background: transparent linear-gradient(to right, hsla(0, 0%, 0%, 0.4) 0%, transparent 8%);
+}
+
+.jch-flipbook-theme-1 {
+  background: #55b352;
+  color: white;
+}
+
+.jch-flipbook-theme-2 {
+  background: #f5a623;
+  color: white;
+}
+
+.jch-flipbook-theme-3 {
+  background: #d0021b;
+  color: white;
+}
+
+.jch-flipbook-theme-4 {
+  background: #4a90e2;
+  color: white;
+}
+
+.jch-flipbook-theme-5 {
+  background: #9013fe;
+  color: white;
+}
+
+.jch-flipbook-theme-6 {
+  background: #bd10e0;
+  color: white;
+}
+
+.jch-flipbook-theme-7 {
+  background: #4cd964;
+  color: white;
+}
+
+.jch-flipbook-theme-8 {
+  background: #ff2d55;
+  color: white;
+}
+
+.jch-flipbook-theme-9 {
+  background: #ff9500;
+  color: white;
+}
+
+.jch-flipbook-theme-10 {
+  background: #ffcc00;
+  color: white;
+}
+
+.jch-flipbook-theme-11 {
+  background: #8e8e93;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

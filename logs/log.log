@@ -1,0 +1,1202 @@
+2024-09-03 01:17:10,453 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:17:10,462 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:17:19,326 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:17:19,326 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:38:55,286 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:38:55,286 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:44:15,568 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:44:15,571 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:44:23,410 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:44:23,410 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:46:05,653 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:46:05,653 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:46:17,981 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:46:17,983 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:46:41,845 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:46:41,846 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:47:56,225 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:47:56,226 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 01:48:13,833 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 01:48:13,842 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:43:03,017 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:43:03,022 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:43:14,614 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:43:14,614 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:51:36,307 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:51:36,307 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:51:56,442 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:51:56,442 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:52:36,943 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:52:36,944 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:54:10,095 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:54:10,095 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 09:54:26,786 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 09:54:26,786 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:04:01,650 - api_key_logger - ERROR - ServerStart(DB connect) : Connection ping failed: localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66d660637fc5256717d9dcd4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-03 10:04:01,669 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:04:01,672 - api_key_logger - INFO - ServerStart(DB connect): Connection failed with status 500
+2024-09-03 10:06:04,616 - api_key_logger - ERROR - ServerStart(DB connect) : Connection ping failed: 0.0.0.0:27017: [WinError 10049] 요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66d660de03b8637aaa7d8e4c, topology_type: Unknown, servers: [<ServerDescription ('0.0.0.0', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('0.0.0.0:27017: [WinError 10049] 요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-03 10:06:04,616 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:06:04,616 - api_key_logger - INFO - ServerStart(DB connect): Connection failed with status 500
+2024-09-03 10:07:22,122 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:07:22,123 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:07:33,726 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:07:33,728 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:08:46,620 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:08:46,621 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:09:48,494 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:09:48,496 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:11:16,339 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:11:16,340 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:11:30,737 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:11:30,738 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:11:44,785 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:11:44,785 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:12:05,232 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:12:05,233 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:13:00,764 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:13:00,765 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:13:12,755 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:13:12,755 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:14:08,051 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:14:08,051 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:14:30,227 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:14:30,227 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:14:47,218 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:14:47,219 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:16:22,528 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:16:22,528 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:16:40,011 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:16:40,012 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:16:57,914 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:16:57,914 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:17:38,199 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:17:38,201 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:19:01,253 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:19:01,257 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:19:32,331 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:19:32,332 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:20:08,729 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:20:08,731 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:21:59,593 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:21:59,595 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:22:15,548 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:22:15,549 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:23:08,220 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:23:08,222 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:34:45,898 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:34:45,899 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:34:58,954 - api_key_logger - ERROR - cBookInfoInsert(info insert) : Error occurred while saving 이정범: mongodb_connection() missing 1 required positional argument: 'mongo_user'
+2024-09-03 10:39:08,384 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:39:08,385 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 10:39:20,541 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 10:39:20,542 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 11:07:02,142 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 11:07:02,143 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 11:07:13,494 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 11:07:13,495 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 11:08:44,283 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 11:08:44,283 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 11:08:56,185 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 11:08:56,186 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 11:08:56,289 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-03 11:12:19,778 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 11:12:19,779 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 12:22:48,794 - api_key_logger - ERROR - ServerStart(DB connect) : Connection ping failed: localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66d680e991be775ce165dc5f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-03 12:22:48,799 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 12:22:48,799 - api_key_logger - INFO - ServerStart(DB connect): Connection failed with status 500
+2024-09-03 12:23:53,042 - api_key_logger - ERROR - ServerStart(DB connect) : Connection ping failed: localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66d6812a55733b9628fcbc35, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-03 12:23:53,043 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 12:23:53,045 - api_key_logger - INFO - ServerStart(DB connect): Connection failed with status 500
+2024-09-03 13:43:15,038 - api_key_logger - ERROR - ServerStart(DB connect) : Connection ping failed: localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66d693c455915900e341639c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-03 13:43:15,054 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 13:43:15,056 - api_key_logger - INFO - ServerStart(DB connect): Connection failed with status 500
+2024-09-03 13:44:43,454 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 13:44:43,454 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 13:44:54,862 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-03 13:44:54,863 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-03 13:45:31,809 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김철수
+2024-09-04 00:01:18,276 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:01:18,277 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:01:27,723 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:01:27,724 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:01:39,904 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:01:39,904 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:01:52,092 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:01:52,093 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:02:29,440 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:02:29,440 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:02:47,839 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:02:47,839 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:02:57,830 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:02:57,831 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:03:16,591 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-04 00:04:35,477 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-04 00:12:36,647 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:12:36,647 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:14:26,538 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:14:26,539 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:20:15,653 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:20:15,653 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:20:35,674 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:20:35,675 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:20:45,044 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:20:45,044 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:41:18,444 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:41:18,445 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:42:39,261 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:42:39,261 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:43:51,636 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:43:51,637 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:44:07,761 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:44:07,761 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:44:25,543 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:44:25,544 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:45:09,037 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:45:09,038 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:45:27,409 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:45:27,410 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:45:48,636 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:45:48,637 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:46:19,528 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:46:19,529 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:47:14,071 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:47:14,072 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:47:34,605 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:47:34,606 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:47:45,725 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:47:45,726 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:47:51,944 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/None.png']
+2024-09-04 00:48:24,241 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:48:24,242 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:48:24,295 - api_key_logger - INFO - Existing file deleted: upload_images/None.png
+2024-09-04 00:48:24,302 - api_key_logger - ERROR - An error occurred while saving image
+2024-09-04 00:48:24,306 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/None.png']
+2024-09-04 00:48:30,250 - api_key_logger - INFO - Existing file deleted: upload_images/None.png
+2024-09-04 00:48:30,252 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/None.png']
+2024-09-04 00:48:48,122 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:48:48,123 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:48:56,035 - api_key_logger - INFO - Existing file deleted: upload_images/None.png
+2024-09-04 00:48:56,037 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/None.png']
+2024-09-04 00:49:16,166 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:49:16,166 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:49:16,219 - api_key_logger - INFO - Existing file deleted: upload_images/None.png
+2024-09-04 00:49:16,223 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/None.png']
+2024-09-04 00:49:22,819 - api_key_logger - INFO - Existing file deleted: upload_images/None.png
+2024-09-04 00:49:22,822 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/None.png']
+2024-09-04 00:50:31,066 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:50:31,066 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:54:13,551 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:54:13,552 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:54:33,710 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:54:33,711 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:54:45,722 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:54:45,722 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:55:00,585 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:55:00,586 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:55:14,754 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:55:14,755 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:55:36,392 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:55:36,393 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:55:42,512 - api_key_logger - INFO - Existing file deleted: upload_images/None.png
+2024-09-04 00:55:42,512 - api_key_logger - ERROR - An error occurred while saving image
+2024-09-04 00:56:28,236 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:56:28,237 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:56:32,292 - api_key_logger - INFO - Successfully uploaded 1 files: ['upload_images/6c791d8d-185d-45e2-ad52-79b640ccfd17.png']
+2024-09-04 00:56:54,129 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:56:54,130 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 00:59:42,868 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 00:59:42,869 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 01:00:31,669 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 01:00:31,670 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 01:00:41,224 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 01:00:41,226 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 01:01:02,471 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 01:01:02,472 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 01:01:12,838 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved test
+2024-09-04 01:01:17,305 - api_key_logger - INFO - Successfully uploaded
+2024-09-04 02:04:27,484 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-04 02:04:34,053 - api_key_logger - INFO - Successfully uploaded
+2024-09-04 02:15:13,907 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:15:13,908 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:15:22,700 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:15:22,701 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:17:29,220 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:17:29,221 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:17:42,768 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:17:42,769 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:17:54,994 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:17:54,995 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:18:20,051 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:18:20,052 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:18:33,655 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:18:33,657 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:18:47,840 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:18:47,841 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:18:57,358 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:18:57,359 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:19:06,817 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:19:06,818 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:19:18,221 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:19:18,222 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:19:39,471 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:19:39,471 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:20:01,046 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:20:01,047 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:20:15,276 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:20:15,276 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:20:31,711 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:20:31,711 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:20:45,504 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:20:45,504 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:20:57,145 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:20:57,146 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:21:49,338 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:21:49,339 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:22:35,185 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:22:35,185 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:22:59,530 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:22:59,531 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:23:12,049 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:23:12,051 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:24:02,267 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:24:02,268 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:24:21,957 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:24:21,957 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:24:33,626 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:24:33,626 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:24:44,041 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:24:44,042 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:24:57,222 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:24:57,222 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:25:29,982 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:25:29,983 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:26:28,888 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:26:28,889 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:26:46,690 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:26:46,691 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:26:55,780 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:26:55,781 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:27:23,292 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:27:23,293 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:27:59,138 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:27:59,139 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:28:28,715 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:28:28,716 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:28:41,045 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:28:41,045 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:29:49,032 - api_key_logger - INFO - Enqueued: 2024-09-04 02:29:49.003032
+2024-09-04 02:30:17,876 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 02:30:17,876 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 02:30:17,935 - api_key_logger - INFO - Enqueued: 2024-09-04 02:30:17.906191
+2024-09-04 02:35:17,879 - api_key_logger - INFO - Enqueued: 2024-09-04 02:35:17.817517
+2024-09-04 02:37:21,110 - api_key_logger - INFO - Enqueued: 2024-09-04 02:37:21.090417
+2024-09-04 10:33:44,800 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 10:33:44,801 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 10:33:57,689 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 10:33:57,690 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 10:39:52,528 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-04 10:40:04,727 - api_key_logger - INFO - Successfully uploaded
+2024-09-04 10:40:50,039 - api_key_logger - INFO - Enqueued: 2024-09-04 10:40:49.957776
+2024-09-04 10:47:29,711 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 10:47:29,713 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:01:26,403 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:01:26,406 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:03:58,503 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:03:58,504 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:04:33,810 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:04:33,811 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:05:17,464 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:05:17,466 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:11:44,260 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:11:44,261 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:11:44,363 - api_key_logger - ERROR - Error in get_makebook: index 'name' cannot be applied to Cursor instances
+2024-09-04 11:12:06,137 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:12:06,139 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:12:06,286 - api_key_logger - INFO - Enqueued: 2024-09-04 11:12:06.222793
+2024-09-04 11:13:01,330 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:13:01,331 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:13:01,471 - api_key_logger - INFO - Enqueued: 2024-09-04 11:13:01.410054
+2024-09-04 11:13:48,774 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:13:48,775 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:13:49,013 - api_key_logger - INFO - Enqueued: 2024-09-04 11:13:48.904351
+2024-09-04 11:14:39,788 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:14:39,789 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:16:14,160 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:16:14,161 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:16:58,722 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:16:58,723 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:16:58,835 - api_key_logger - INFO - Enqueued: 2024-09-04 11:16:58.791988
+2024-09-04 11:18:24,735 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:18:24,737 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:18:24,867 - api_key_logger - INFO - Enqueued: 2024-09-04 11:18:24.791795
+2024-09-04 11:19:24,352 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:19:24,353 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:20:50,674 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:20:50,676 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:20:50,808 - api_key_logger - INFO - Enqueued: 2024-09-04 11:20:50.758623
+2024-09-04 11:23:41,395 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:23:41,396 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 11:23:41,586 - api_key_logger - INFO - Enqueued: 2024-09-04 11:23:41.492348
+2024-09-04 11:25:05,130 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 11:25:05,131 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 23:43:14,643 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 23:43:14,645 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 23:43:56,406 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 23:43:56,407 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 23:44:12,386 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 23:44:12,388 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-04 23:44:47,146 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김철수
+2024-09-04 23:45:59,474 - api_key_logger - INFO - Successfully uploaded
+2024-09-04 23:46:26,331 - api_key_logger - INFO - Enqueued: 2024-09-04 23:46:26.278284
+2024-09-04 23:53:54,231 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-04 23:53:54,233 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:17:37,321 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:17:37,322 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:17:54,772 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:17:54,774 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:18:31,593 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:18:31,595 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:21:23,079 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:21:23,080 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:23:57,443 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:23:57,444 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:26:42,445 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:26:42,448 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:26:59,266 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:26:59,267 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:32:42,067 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:32:42,068 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:37:07,000 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:37:07,002 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 00:43:23,209 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 00:43:23,210 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:07:34,956 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:07:34,957 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:07:46,265 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:07:46,267 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:08:21,717 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:08:21,719 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:14:03,843 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:14:03,844 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:14:24,103 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:14:24,104 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:20:02,254 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:20:02,254 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:24:49,533 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:24:49,534 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:26:12,617 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:26:12,619 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:26:55,116 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:26:55,119 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:27:17,729 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:27:17,731 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:27:39,360 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:27:39,361 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:28:56,554 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:28:56,555 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:29:56,864 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:29:56,865 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:30:25,852 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:30:25,853 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:31:00,153 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:31:00,154 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:32:00,802 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:32:00,804 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:32:18,590 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:32:18,591 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:32:53,539 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:32:53,540 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:33:12,376 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:33:12,379 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:36:32,949 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김철수
+2024-09-05 01:36:37,425 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 01:36:39,003 - api_key_logger - INFO - Enqueued: 2024-09-05 01:36:38.865844
+2024-09-05 01:36:49,297 - api_key_logger - INFO - Enqueued: 2024-09-05 01:36:49.243727
+2024-09-05 01:37:35,816 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:37:35,817 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:38:02,236 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김영수
+2024-09-05 01:38:08,378 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 01:38:09,902 - api_key_logger - INFO - Enqueued: 2024-09-05 01:38:09.826007
+2024-09-05 01:38:22,837 - api_key_logger - INFO - Enqueued: 2024-09-05 01:38:22.760158
+2024-09-05 01:38:54,813 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:38:54,815 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:41:21,310 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:41:21,312 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:41:57,468 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 유리
+2024-09-05 01:42:01,873 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 01:42:03,453 - api_key_logger - INFO - Enqueued: 2024-09-05 01:42:03.330804
+2024-09-05 01:43:25,131 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:43:25,133 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:44:43,789 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:44:43,790 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:45:00,345 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:45:00,346 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:45:25,350 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:45:25,351 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:45:37,604 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:45:37,605 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:46:12,767 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:46:12,768 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:47:22,376 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:47:22,381 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:48:03,967 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:48:03,968 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:53:00,617 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:53:00,619 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:53:14,733 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:53:14,737 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:53:14,863 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 철수
+2024-09-05 01:53:14,883 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 철수
+2024-09-05 01:53:21,101 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 01:53:22,721 - api_key_logger - INFO - Enqueued: 2024-09-05 01:53:22.631307
+2024-09-05 01:54:44,348 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:54:44,349 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:55:44,499 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:55:44,501 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 01:56:24,596 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 01:56:24,598 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:01:27,779 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:01:27,780 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:02:21,478 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:02:21,479 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:03:11,072 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:03:11,074 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:05:08,545 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:05:08,546 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:08:36,329 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:08:36,330 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:08:53,361 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:08:53,363 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:11:20,769 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:11:20,770 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:12:36,044 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:12:36,045 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:12:52,871 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:12:52,874 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:13:27,391 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:13:27,393 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:14:24,359 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:14:24,360 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:15:57,169 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:15:57,171 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:17:10,073 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:17:10,073 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:18:59,399 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:18:59,400 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:20:34,384 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:20:34,385 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:23:06,319 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:23:06,320 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:23:41,035 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:23:41,036 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:24:38,613 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:24:38,614 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:25:05,621 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:25:05,622 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:26:47,502 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:26:47,503 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:28:04,518 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:28:04,520 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:57:51,501 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:57:51,502 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:58:02,174 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:58:02,175 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:59:37,012 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:59:37,016 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 02:59:54,603 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 02:59:54,605 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:07:45,198 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:07:45,200 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:08:44,072 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:08:44,072 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:10:31,532 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:10:31,533 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:10:45,668 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:10:45,668 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:11:28,715 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:11:28,716 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:14:23,707 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 03:14:28,209 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 03:14:30,588 - api_key_logger - INFO - Enqueued: 2024-09-05 03:14:30.516852
+2024-09-05 03:20:10,623 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:20:10,623 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:22:11,400 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:22:11,400 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:23:00,620 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 03:23:05,173 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 03:23:08,417 - api_key_logger - INFO - Enqueued: 2024-09-05 03:23:08.351228
+2024-09-05 03:42:46,082 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:42:46,083 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:44:16,816 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:44:16,816 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:50:52,343 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:50:52,343 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:52:46,167 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:52:46,167 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:53:04,439 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:53:04,440 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:54:43,970 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:54:43,971 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 03:56:52,841 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 03:56:52,842 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 14:48:28,321 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 14:48:28,324 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 14:48:39,164 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 14:48:39,165 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 14:49:02,198 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 유성휘
+2024-09-05 14:49:07,717 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 14:49:09,560 - api_key_logger - INFO - Enqueued: 2024-09-05 14:49:09.522539
+2024-09-05 14:50:33,517 - api_key_logger - INFO - Enqueued: 2024-09-05 14:50:33.473092
+2024-09-05 15:00:25,254 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:00:25,255 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:02:56,079 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:02:56,085 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:03:40,045 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:03:40,046 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:04:02,923 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:04:02,923 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:05:55,884 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:05:55,884 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:07:11,895 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:07:11,895 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:07:22,636 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:07:22,637 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:07:33,235 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:07:33,236 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:08:15,580 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:08:15,581 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:10:38,274 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:10:38,275 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:10:55,503 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:10:55,504 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:12:14,994 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:12:14,995 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:13:06,892 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:13:06,893 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:13:44,789 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:13:44,790 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:15:35,244 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:15:35,245 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:15:52,318 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:15:52,318 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:16:17,278 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:16:17,278 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:19:06,037 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:19:06,037 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:19:37,271 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:19:37,271 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:19:59,698 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:19:59,699 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:20:15,434 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:20:15,434 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:21:52,042 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:21:52,042 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:22:13,660 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:22:13,661 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:22:25,576 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:22:25,577 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:22:35,459 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:22:35,460 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:23:18,326 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:23:18,327 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:23:28,228 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:23:28,228 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:23:52,980 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:23:52,980 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:24:38,428 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:24:38,428 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:24:54,530 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:24:54,531 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:25:08,326 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:25:08,327 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:25:19,949 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:25:19,949 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:25:44,951 - api_key_logger - INFO - Enqueued: 2024-09-05 15:25:44.902526
+2024-09-05 15:26:07,034 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:26:07,034 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:27:57,098 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:27:57,098 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:40:37,769 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:40:37,769 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:42:31,810 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:42:31,811 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:42:47,696 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:42:47,697 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:43:44,574 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:43:44,575 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:44:14,903 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:44:14,904 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:44:39,489 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:44:39,490 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:45:06,221 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:45:06,222 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:45:25,619 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:45:25,620 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:47:06,621 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:47:06,622 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:47:17,699 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:47:17,700 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:48:18,485 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 15:48:22,826 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 15:48:24,412 - api_key_logger - INFO - Enqueued: 2024-09-05 15:48:24.354883
+2024-09-05 15:50:22,746 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 15:50:27,530 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 15:50:29,316 - api_key_logger - INFO - Enqueued: 2024-09-05 15:50:29.265860
+2024-09-05 15:52:27,901 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:52:27,901 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:53:14,095 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:53:14,095 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:56:09,297 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:56:09,297 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:57:37,597 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:57:37,597 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:57:55,543 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:57:55,544 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:58:08,337 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:58:08,338 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:58:33,025 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:58:33,026 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:58:43,520 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:58:43,521 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 15:58:58,208 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 15:58:58,209 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:01:29,528 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:01:29,528 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:01:45,216 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:01:45,217 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:01:45,304 - api_key_logger - INFO - Enqueued: 2024-09-05 16:01:45.254770
+2024-09-05 16:03:03,118 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:03:03,119 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:04:41,865 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:04:41,865 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:05:07,860 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:05:07,861 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:05:32,694 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:05:32,695 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:06:28,003 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:06:28,003 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:06:56,029 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:06:56,030 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:07:13,009 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:07:13,010 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:07:47,953 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:07:47,953 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:08:35,962 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:08:35,963 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:09:29,980 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:09:29,981 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:09:45,992 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:09:45,992 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:09:58,731 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:09:58,732 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:10:20,657 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:10:20,658 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:10:34,896 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:10:34,896 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:10:46,027 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:10:46,028 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:11:16,076 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:11:16,077 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:12:01,338 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:12:01,339 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:12:33,586 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:12:33,587 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:13:13,557 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:13:13,557 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:13:28,135 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:13:28,136 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:13:41,807 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:13:41,807 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:14:15,927 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:14:15,927 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:14:30,676 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:14:30,676 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:16:45,949 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:16:45,949 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:17:08,698 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:17:08,699 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:18:17,521 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:18:17,521 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:20:01,399 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:20:01,400 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:20:55,930 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:20:55,930 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:21:09,077 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:21:09,078 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:21:19,806 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:21:19,807 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:21:54,410 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:21:54,411 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:22:07,555 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:22:07,556 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:22:28,075 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:22:28,075 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:22:37,968 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:22:37,971 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:22:57,390 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:22:57,391 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:23:31,409 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:23:31,410 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:24:02,324 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:24:02,325 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:24:16,850 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:24:16,851 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:25:16,013 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:25:16,013 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:25:34,871 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:25:34,871 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:26:26,811 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:26:26,812 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:26:43,783 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:26:47,938 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:26:49,397 - api_key_logger - INFO - Enqueued: 2024-09-05 16:26:49.349512
+2024-09-05 16:28:15,475 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:28:15,476 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:29:01,176 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:29:05,170 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:29:06,659 - api_key_logger - INFO - Enqueued: 2024-09-05 16:29:06.617076
+2024-09-05 16:30:38,740 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:30:38,740 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:31:39,443 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:31:39,443 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:31:56,318 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:31:59,865 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:32:01,210 - api_key_logger - INFO - Enqueued: 2024-09-05 16:32:01.164628
+2024-09-05 16:33:32,311 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:33:32,312 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:33:45,887 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:33:45,887 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:33:51,885 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:33:55,979 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:33:57,675 - api_key_logger - INFO - Enqueued: 2024-09-05 16:33:57.638763
+2024-09-05 16:35:24,781 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:35:24,782 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:35:31,032 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:35:35,067 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:35:36,259 - api_key_logger - INFO - Enqueued: 2024-09-05 16:35:36.213765
+2024-09-05 16:37:12,511 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:37:12,511 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:37:35,705 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:37:37,377 - api_key_logger - ERROR - An error occurred while saving image
+2024-09-05 16:37:41,541 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:37:42,910 - api_key_logger - INFO - Enqueued: 2024-09-05 16:37:42.859965
+2024-09-05 16:40:09,894 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:40:09,895 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:41:02,696 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:41:02,697 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:41:22,862 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:41:22,863 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:41:35,521 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:41:35,522 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:41:47,134 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:41:47,134 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:42:02,119 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:42:02,119 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:42:19,166 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:42:19,167 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:42:36,278 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:42:36,278 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:42:54,889 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:42:58,911 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:43:03,590 - api_key_logger - INFO - Enqueued: 2024-09-05 16:43:03.522191
+2024-09-05 16:44:34,314 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:44:34,315 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:45:32,870 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:45:36,698 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:45:37,957 - api_key_logger - INFO - Enqueued: 2024-09-05 16:45:37.899162
+2024-09-05 16:47:22,775 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:47:22,776 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:48:53,578 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 16:48:53,579 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 16:48:53,666 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 16:48:53,676 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:06:26,813 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:06:30,903 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:06:32,587 - api_key_logger - INFO - Enqueued: 2024-09-05 17:06:32.550025
+2024-09-05 17:08:44,589 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:08:44,589 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:08:46,828 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:08:50,578 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:08:52,332 - api_key_logger - INFO - Enqueued: 2024-09-05 17:08:52.289326
+2024-09-05 17:09:57,502 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:09:57,502 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:10:19,259 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:10:26,467 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:10:30,153 - api_key_logger - INFO - Enqueued: 2024-09-05 17:10:30.122267
+2024-09-05 17:14:06,312 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:14:06,313 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:21:07,030 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:21:11,192 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:21:12,796 - api_key_logger - INFO - Enqueued: 2024-09-05 17:21:12.718906
+2024-09-05 17:23:04,505 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:23:04,506 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:23:04,585 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:23:11,847 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:23:13,793 - api_key_logger - INFO - Enqueued: 2024-09-05 17:23:13.732128
+2024-09-05 17:24:44,991 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:24:44,991 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:24:53,789 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:24:53,790 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:24:53,904 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:25:01,013 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:25:04,040 - api_key_logger - INFO - Enqueued: 2024-09-05 17:25:03.999224
+2024-09-05 17:27:07,343 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:27:07,344 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:27:13,595 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:27:18,689 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:27:20,709 - api_key_logger - INFO - Enqueued: 2024-09-05 17:27:20.637861
+2024-09-05 17:29:09,965 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:29:09,965 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:29:25,551 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:29:25,551 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:29:45,590 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:29:49,664 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:29:50,986 - api_key_logger - INFO - Enqueued: 2024-09-05 17:29:50.926730
+2024-09-05 17:30:43,946 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:30:43,947 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:30:51,060 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:30:56,234 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:30:57,831 - api_key_logger - INFO - Enqueued: 2024-09-05 17:30:57.751837
+2024-09-05 17:32:17,856 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:32:17,856 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:32:20,732 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:32:24,679 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:32:26,097 - api_key_logger - INFO - Enqueued: 2024-09-05 17:32:26.033928
+2024-09-05 17:33:22,845 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:33:22,846 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:33:32,501 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김지영
+2024-09-05 17:33:38,296 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:33:40,371 - api_key_logger - INFO - Enqueued: 2024-09-05 17:33:40.316553
+2024-09-05 17:36:26,742 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:36:26,742 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:37:04,366 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:37:08,719 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:37:13,475 - api_key_logger - INFO - Enqueued: 2024-09-05 17:37:13.428633
+2024-09-05 17:40:48,715 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:40:48,716 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:41:05,007 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:41:09,204 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:41:10,486 - api_key_logger - INFO - Enqueued: 2024-09-05 17:41:10.442918
+2024-09-05 17:41:50,720 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:41:50,720 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:43:27,413 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:43:31,055 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:43:32,999 - api_key_logger - INFO - Enqueued: 2024-09-05 17:43:32.946462
+2024-09-05 17:46:04,797 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:46:04,798 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:46:04,878 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:46:10,123 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:46:11,678 - api_key_logger - INFO - Enqueued: 2024-09-05 17:46:11.621113
+2024-09-05 17:49:11,961 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:49:11,962 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:49:13,791 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:49:17,488 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:49:19,340 - api_key_logger - INFO - Enqueued: 2024-09-05 17:49:19.284189
+2024-09-05 17:52:31,625 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:52:31,626 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:52:31,730 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:52:35,857 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:52:37,340 - api_key_logger - INFO - Enqueued: 2024-09-05 17:52:37.302199
+2024-09-05 17:57:52,853 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:57:52,854 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:58:03,374 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:58:03,375 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:58:14,550 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:58:14,550 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:58:41,442 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:58:41,443 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:58:57,002 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:58:57,002 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:59:13,944 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 17:59:13,945 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 17:59:14,041 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:59:14,045 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 17:59:19,906 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:59:21,365 - api_key_logger - INFO - Enqueued: 2024-09-05 17:59:21.311286
+2024-09-05 18:02:44,141 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:02:44,142 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:02:52,349 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:02:52,350 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:03:40,003 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 18:03:44,635 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:03:46,084 - api_key_logger - INFO - Enqueued: 2024-09-05 18:03:46.038727
+2024-09-05 18:12:15,727 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:12:15,728 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:12:44,167 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:12:44,168 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:16:17,037 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:16:17,038 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:16:19,612 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 18:16:23,492 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:16:25,015 - api_key_logger - INFO - Enqueued: 2024-09-05 18:16:24.949516
+2024-09-05 18:17:23,302 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:17:23,303 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:17:26,525 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 18:17:30,374 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:17:31,758 - api_key_logger - INFO - Enqueued: 2024-09-05 18:17:31.733501
+2024-09-05 18:18:52,076 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:18:52,077 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:18:52,145 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김예음
+2024-09-05 18:18:56,728 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:18:58,846 - api_key_logger - INFO - Enqueued: 2024-09-05 18:18:58.797434
+2024-09-05 18:26:47,186 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:26:47,186 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:26:48,361 - api_key_logger - INFO - Enqueued: 2024-09-05 18:26:48.309057
+2024-09-05 18:30:50,518 - api_key_logger - INFO - Enqueued: 2024-09-05 18:30:50.492658
+2024-09-05 18:32:27,965 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:32:27,966 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:33:47,167 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:33:47,168 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:35:28,611 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:35:28,611 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:35:58,855 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:35:58,856 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:36:19,525 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:36:19,526 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:36:31,748 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:36:31,749 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:37:37,759 - api_key_logger - INFO - Enqueued: 2024-09-05 18:37:37.716960
+2024-09-05 18:38:18,832 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:38:18,834 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:40:01,738 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:40:01,739 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:41:13,212 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:41:13,212 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:41:23,172 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:41:23,173 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:41:36,805 - api_key_logger - INFO - Enqueued: 2024-09-05 18:41:36.761418
+2024-09-05 18:41:46,535 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:41:46,536 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:41:54,797 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:41:54,798 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:44:34,665 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:44:34,666 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:44:49,957 - api_key_logger - INFO - Enqueued: 2024-09-05 18:44:49.926721
+2024-09-05 18:47:35,625 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 18:47:41,781 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:47:43,437 - api_key_logger - INFO - Enqueued: 2024-09-05 18:47:43.373233
+2024-09-05 18:49:48,545 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:49:48,546 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:49:49,907 - api_key_logger - INFO - Enqueued: 2024-09-05 18:49:49.849953
+2024-09-05 18:51:12,879 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:51:12,880 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:52:44,247 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:52:44,248 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:52:56,795 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:52:56,796 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:53:15,367 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:53:15,368 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:55:20,564 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:55:20,565 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:56:44,972 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:56:44,973 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 18:59:53,454 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 18:59:53,455 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:00:08,111 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:00:08,111 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:00:19,105 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:00:19,106 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:00:28,763 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:00:28,764 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:00:54,765 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:00:54,766 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:02:12,774 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:02:12,774 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:02:40,170 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:02:40,171 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:03:51,955 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:03:51,956 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:05:23,804 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:05:23,805 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:05:38,625 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:05:38,626 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:05:58,448 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:05:58,449 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:06:59,432 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:06:59,433 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:06:59,518 - api_key_logger - INFO - Enqueued: 2024-09-05 19:06:59.468894
+2024-09-05 19:07:29,624 - api_key_logger - ERROR - Error in get_makebook: 'NoneType' object is not subscriptable
+2024-09-05 19:07:41,149 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 19:07:45,025 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 19:07:48,239 - api_key_logger - INFO - Enqueued: 2024-09-05 19:07:48.200240
+2024-09-05 19:08:31,070 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:08:31,071 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:08:49,526 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:08:49,527 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:09:34,332 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:09:34,332 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:09:34,409 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 19:09:39,452 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 19:09:40,930 - api_key_logger - INFO - Enqueued: 2024-09-05 19:09:40.881755
+2024-09-05 19:10:58,705 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:10:58,706 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:11:00,531 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 19:11:05,619 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 19:11:06,970 - api_key_logger - INFO - Enqueued: 2024-09-05 19:11:06.908028
+2024-09-05 19:12:35,196 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:12:35,196 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:12:35,266 - api_key_logger - INFO - Enqueued: 2024-09-05 19:12:35.232917
+2024-09-05 19:13:32,159 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:13:32,159 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:13:46,247 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:13:46,247 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:15:31,853 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:15:31,853 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:15:48,789 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:15:48,790 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:17:14,838 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:17:14,839 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:18:02,960 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:18:02,961 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:19:00,835 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:19:00,836 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:19:56,116 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:19:56,116 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:20:23,198 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:20:23,198 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:21:29,100 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:21:29,100 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:23:42,355 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:23:42,355 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:24:48,414 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:24:48,415 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:25:17,929 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:25:17,930 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:26:04,636 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:26:04,636 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:26:23,355 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:26:23,356 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:27:04,620 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:27:04,620 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:27:22,812 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:27:22,812 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:27:40,969 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:27:40,970 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:27:56,658 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:27:56,658 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:28:14,809 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:28:14,810 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:39:26,481 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:39:26,482 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:40:19,544 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:40:19,545 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:40:46,608 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:40:46,609 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:40:56,039 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:40:56,040 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:41:13,045 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:41:13,045 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:42:12,947 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:42:12,947 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:42:23,147 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:42:23,147 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:42:32,249 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:42:32,250 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:43:14,436 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:43:14,436 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:43:58,964 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:43:58,965 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:44:25,040 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:44:25,040 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:45:21,859 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:45:21,860 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:45:33,824 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:45:33,825 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:45:44,658 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:45:44,658 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:46:03,569 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:46:03,569 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:46:13,418 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:46:13,419 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:46:28,810 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:46:28,810 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:46:39,371 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:46:39,372 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:46:51,841 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:46:51,842 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:47:05,547 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:47:05,548 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:47:44,781 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:47:44,782 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:48:05,089 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:48:05,089 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:48:17,783 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:48:17,783 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:48:42,624 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:48:42,625 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:48:52,805 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:48:52,806 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:48:54,568 - api_key_logger - INFO - Enqueued: 2024-09-05 19:48:54.522472
+2024-09-05 19:50:31,608 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:50:31,609 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:52:16,483 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:52:16,484 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:53:11,649 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:53:11,649 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:54:02,783 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:54:02,784 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:54:16,550 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:54:16,551 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:54:27,628 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:54:27,629 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:54:39,539 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:54:39,540 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:55:00,595 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:55:00,596 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:55:53,633 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:55:53,633 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:58:05,523 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:58:05,523 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:59:19,825 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:59:19,826 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:59:40,352 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:59:40,352 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 19:59:50,963 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 19:59:50,963 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:00:24,766 - api_key_logger - INFO - Enqueued: 2024-09-05 20:00:24.740432
+2024-09-05 20:02:11,443 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:02:11,444 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:04:11,728 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:04:11,729 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:05:28,743 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:05:28,744 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:25:27,279 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:25:27,280 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:30:54,427 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:30:54,428 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:31:04,336 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:31:04,337 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:32:34,172 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:32:34,172 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:42:08,663 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:42:08,663 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:42:33,611 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 20:42:37,819 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 20:43:17,930 - api_key_logger - INFO - Enqueued: 2024-09-05 20:43:17.899315
+2024-09-05 20:48:32,536 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:48:32,536 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:49:38,474 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:49:38,474 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 20:49:53,086 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 20:49:53,087 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:03:24,904 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:03:24,904 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:03:35,779 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:03:35,779 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:04:31,659 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:04:31,659 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:05:34,937 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:05:34,938 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:10:34,632 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:10:34,632 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:10:53,688 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:10:53,689 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:11:47,431 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:11:47,431 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:13:46,545 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:13:46,546 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:14:05,521 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:14:05,522 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 21:14:34,035 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
+2024-09-05 21:14:34,036 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.

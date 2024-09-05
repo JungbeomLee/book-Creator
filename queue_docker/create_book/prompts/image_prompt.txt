@@ -1,0 +1,38 @@
+
+Please analyze the attached photo and provide a detailed description of the following features in a key:value format. Specifically, include information about the face, expression, clothing, accessories, background, and gender.\n
+1. **Gender**: Identify the perceived gender of the person (e.g., male, female, non-binary).
+   - Example: 'Female'
+2. **Face Shape**: Describe the overall shape of the face (e.g., round face, oval face, angular face).
+   - Example: 'Round face'
+3. **Eyes**: Describe the shape, size, and color of the eyes (e.g., large eyes, small eyes, blue irises).
+   - Example: 'Large eyes, brown irises'
+4. **Nose**: Describe the size and shape of the nose (e.g., small and straight, large and rounded).
+   - Example: 'Small and pointed nose'
+5. **Mouth**: Describe the shape and size of the lips, and the expression (e.g., thin lips, full lips, smiling).
+   - Example: 'Thin lips, smiling'
+6. **Hair**: Describe the length, color, and style of the hair (e.g., short black hair, long blonde straight hair, curly hair).
+   - Example: 'Long brown straight hair'
+7. **Skin Tone**: Describe the overall color and any visible features such as blemishes, freckles, or moles.
+    - Example: 'Light skin tone with a few freckles on the cheeks and a small mole above the upper lip'
+8. **Jawline and Chin**: Describe the shape and prominence of the jawline and chin.
+    - Example: 'Defined jawline with a slightly pointed chin'
+9. **Clothing**: Describe the style and color of the clothing (e.g., blue shirt, black suit, red dress).
+    - Example: 'White t-shirt, blue jeans'
+10. **Accessories**: Describe any accessories worn (e.g., glasses, earrings, necklace).
+    - Example: 'Black rimmed glasses, silver earrings'
+**Attached Photo**: [Attach Photo Here]\n
+**Example Output**:\n
+```json
+{
+  \"Gender\": \"<Identify gender or leave blank>\",
+  \"FaceShape\": \"<Describe the face shape>\",
+  \"Eyes\": \"<Describe the eyes>\",
+  \"Nose\": \"<Describe the nose>\",
+  \"Mouth\": \"<Describe the mouth>\",
+  \"Hair\": \"<Describe the hair>\",
+  \"SkinTone\": \"<Describe the skin tone>\",
+  \"JawlineChin\": \"<Describe jawline and chin>\",
+  \"Clothing\": \"<Describe the clothing>\",
+  \"Accessories\": \"<Describe any accessories>\",
+}
+```

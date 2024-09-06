@@ -3,7 +3,7 @@ from views.function_file import _log_write
 
 def mongodb_connection(MONGO_PASSWORD):
     # MongoDB 연결 정보
-    mongo_host = 'localhost'  # 또는 컨테이너의 IP 주소
+    mongo_host = '172.17.0.2'  # 또는 컨테이너의 IP 주소
     mongo_port = 27017
     mongo_user = 'user'
     mongo_password = MONGO_PASSWORD

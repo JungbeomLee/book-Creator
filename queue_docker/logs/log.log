@@ -810,3 +810,445 @@ Please give me the next decision point input.
 2024-09-05 20:02:09,306 - api_key_logger - INFO - Attempt 1: Using random_seed=215
 2024-09-05 20:02:18,670 - api_key_logger - ERROR - Error parsing the output
 2024-09-05 20:02:18,671 - api_key_logger - INFO - Attempt 2: Using random_seed=315
+2024-09-05 13:25:31,734 - api_key_logger - INFO - Queue starter started
+2024-09-05 13:25:31,744 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:25:31,762 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 13:25:31,767 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:25:31,786 - api_key_logger - INFO - Start Processing task:2024-09-05 12:57:09.028000
+2024-09-05 13:25:31,794 - api_key_logger - INFO - Attempt 1: Using random_seed=774
+2024-09-05 13:25:42,746 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:25:42,747 - api_key_logger - INFO - Attempt 2: Using random_seed=659
+2024-09-05 13:26:21,494 - api_key_logger - INFO - Queue starter started
+2024-09-05 13:26:21,505 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:26:36,540 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 13:26:36,554 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:26:36,575 - api_key_logger - INFO - Start Processing task:2024-09-05 13:26:32.585000
+2024-09-05 13:26:36,579 - api_key_logger - INFO - Attempt 1: Using random_seed=163
+2024-09-05 13:26:56,036 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:27:22,674 - api_key_logger - INFO - queue process done
+2024-09-05 13:27:46,486 - api_key_logger - INFO - Queue starter started
+2024-09-05 13:27:46,495 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:45:42,972 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 13:45:42,987 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:45:43,010 - api_key_logger - INFO - Start Processing task:2024-09-05 13:45:40.726000
+2024-09-05 13:45:43,014 - api_key_logger - INFO - Attempt 1: Using random_seed=165
+2024-09-05 13:45:53,757 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:45:53,758 - api_key_logger - INFO - Attempt 2: Using random_seed=349
+2024-09-05 13:45:58,446 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:45:58,448 - api_key_logger - INFO - Attempt 3: Using random_seed=864
+2024-09-05 13:48:37,604 - api_key_logger - INFO - Queue starter started
+2024-09-05 13:48:37,614 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:48:37,631 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 13:48:37,637 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:48:37,653 - api_key_logger - INFO - Start Processing task:2024-09-05 13:45:40.726000
+2024-09-05 13:48:37,657 - api_key_logger - INFO - Attempt 1: Using random_seed=875
+2024-09-05 13:48:43,316 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:48:43,316 - api_key_logger - INFO - Attempt 2: Using random_seed=896
+2024-09-05 13:48:46,526 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:48:46,527 - api_key_logger - INFO - Attempt 3: Using random_seed=504
+2024-09-05 13:48:49,440 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:48:49,441 - api_key_logger - INFO - Attempt 4: Using random_seed=277
+2024-09-05 13:49:22,533 - api_key_logger - INFO - Queue starter started
+2024-09-05 13:49:22,542 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:49:22,559 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 13:49:22,564 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:49:22,580 - api_key_logger - INFO - Start Processing task:2024-09-05 13:45:40.726000
+2024-09-05 13:49:22,584 - api_key_logger - INFO - Attempt 1: Using random_seed=132
+2024-09-05 13:49:44,571 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:50:12,647 - api_key_logger - INFO - queue process done
+2024-09-05 13:53:22,905 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 13:53:22,922 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:53:22,944 - api_key_logger - INFO - Start Processing task:2024-09-05 13:53:21.057000
+2024-09-05 13:53:22,946 - api_key_logger - INFO - Attempt 1: Using random_seed=119
+2024-09-05 13:53:26,320 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 13:53:26,320 - api_key_logger - INFO - Attempt 2: Using random_seed=494
+2024-09-05 13:53:50,486 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 13:54:18,263 - api_key_logger - INFO - queue process done
+2024-09-05 14:26:40,922 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:26:40,939 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:26:40,959 - api_key_logger - INFO - Start Processing task:2024-09-05 14:26:36.461000
+2024-09-05 14:26:40,961 - api_key_logger - INFO - Attempt 1: Using random_seed=936
+2024-09-05 14:26:53,823 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:30:33,122 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:30:33,132 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:30:33,149 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:30:33,154 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:30:33,170 - api_key_logger - INFO - Start Processing task:2024-09-05 14:26:36.461000
+2024-09-05 14:30:33,174 - api_key_logger - INFO - Attempt 1: Using random_seed=372
+2024-09-05 14:30:36,440 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 14:30:36,441 - api_key_logger - INFO - Attempt 2: Using random_seed=30
+2024-09-05 14:30:55,929 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:32:06,812 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:32:06,821 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:32:06,839 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:32:06,845 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:32:06,862 - api_key_logger - INFO - Start Processing task:2024-09-05 14:26:36.461000
+2024-09-05 14:32:06,866 - api_key_logger - INFO - Attempt 1: Using random_seed=131
+2024-09-05 14:32:33,050 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:33:09,813 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:33:09,822 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:33:09,841 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:33:09,846 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:33:09,863 - api_key_logger - INFO - Start Processing task:2024-09-05 14:26:36.461000
+2024-09-05 14:33:09,868 - api_key_logger - INFO - Attempt 1: Using random_seed=851
+2024-09-05 14:33:13,404 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 14:33:13,405 - api_key_logger - INFO - Attempt 2: Using random_seed=283
+2024-09-05 14:35:36,198 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:35:36,208 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:35:36,225 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:35:36,230 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:35:36,246 - api_key_logger - INFO - Start Processing task:2024-09-05 14:26:36.461000
+2024-09-05 14:35:36,250 - api_key_logger - INFO - Attempt 1: Using random_seed=831
+2024-09-05 14:36:05,635 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:36:31,711 - api_key_logger - INFO - queue process done
+2024-09-05 14:37:36,120 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:37:36,131 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:48:52,011 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:48:52,025 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:48:52,047 - api_key_logger - INFO - Start Processing task:2024-09-05 14:48:49.071000
+2024-09-05 14:48:52,051 - api_key_logger - INFO - Attempt 1: Using random_seed=401
+2024-09-05 14:49:07,380 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:49:54,329 - api_key_logger - INFO - queue process done
+2024-09-05 14:54:59,764 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:54:59,775 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:54:59,796 - api_key_logger - INFO - Start Processing task:2024-09-05 14:54:59.247000
+2024-09-05 14:54:59,798 - api_key_logger - INFO - Attempt 1: Using random_seed=736
+2024-09-05 14:55:41,140 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:55:41,151 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:55:41,169 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:55:41,174 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:55:41,191 - api_key_logger - INFO - Start Processing task:2024-09-05 14:54:59.247000
+2024-09-05 14:55:41,195 - api_key_logger - INFO - Attempt 1: Using random_seed=766
+2024-09-05 14:56:49,344 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:56:49,354 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:56:49,372 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:56:49,377 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:56:49,394 - api_key_logger - INFO - Start Processing task:2024-09-05 14:54:59.247000
+2024-09-05 14:56:49,398 - api_key_logger - INFO - Attempt 1: Using random_seed=123
+2024-09-05 14:57:28,311 - api_key_logger - INFO - Queue starter started
+2024-09-05 14:57:28,324 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:57:28,341 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 14:57:28,347 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:57:28,364 - api_key_logger - INFO - Start Processing task:2024-09-05 14:54:59.247000
+2024-09-05 14:57:28,368 - api_key_logger - INFO - Attempt 1: Using random_seed=238
+2024-09-05 14:57:52,359 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 14:58:16,786 - api_key_logger - INFO - queue process done
+2024-09-05 15:44:35,675 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 15:44:35,688 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 15:44:35,709 - api_key_logger - INFO - Start Processing task:2024-09-05 15:44:34.376000
+2024-09-05 15:44:35,710 - api_key_logger - INFO - Attempt 1: Using random_seed=849
+2024-09-05 15:44:38,781 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 15:44:38,782 - api_key_logger - INFO - Attempt 2: Using random_seed=130
+2024-09-05 15:45:04,362 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 15:45:32,534 - api_key_logger - INFO - queue process done
+2024-09-05 15:52:48,133 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 15:52:48,147 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 15:52:48,167 - api_key_logger - INFO - Start Processing task:2024-09-05 15:52:46.122000
+2024-09-05 15:52:48,168 - api_key_logger - INFO - Attempt 1: Using random_seed=285
+2024-09-05 15:53:03,886 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 15:53:03,887 - api_key_logger - INFO - Attempt 2: Using random_seed=926
+2024-09-05 15:53:07,152 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 15:53:07,153 - api_key_logger - INFO - Attempt 3: Using random_seed=482
+2024-09-05 15:53:13,129 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 15:53:13,130 - api_key_logger - INFO - Attempt 4: Using random_seed=68
+2024-09-05 15:53:16,273 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 15:53:16,274 - api_key_logger - INFO - Attempt 5: Using random_seed=230
+2024-09-05 15:53:20,052 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 15:53:20,054 - api_key_logger - INFO - Attempt 6: Using random_seed=226
+2024-09-05 15:53:41,293 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 15:54:02,712 - api_key_logger - INFO - queue process done
+2024-09-05 15:58:13,066 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 15:58:13,080 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 15:58:13,100 - api_key_logger - INFO - Start Processing task:2024-09-05 15:58:11.256000
+2024-09-05 15:58:13,102 - api_key_logger - INFO - Attempt 1: Using random_seed=900
+2024-09-05 15:58:34,216 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 15:58:59,706 - api_key_logger - INFO - queue process done
+2024-09-05 16:03:35,082 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 16:03:35,098 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:03:35,119 - api_key_logger - INFO - Start Processing task:2024-09-05 16:03:33.861000
+2024-09-05 16:03:35,121 - api_key_logger - INFO - Attempt 1: Using random_seed=768
+2024-09-05 16:03:45,819 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:04:21,670 - api_key_logger - INFO - queue process done
+2024-09-05 16:10:52,884 - api_key_logger - INFO - Queue starter started
+2024-09-05 16:10:52,895 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:11:47,981 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 16:11:47,998 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:11:48,021 - api_key_logger - INFO - Start Processing task:2024-09-05 16:11:47.205000
+2024-09-05 16:11:48,026 - api_key_logger - INFO - Attempt 1: Using random_seed=406
+2024-09-05 16:11:53,005 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:11:53,008 - api_key_logger - INFO - Attempt 2: Using random_seed=588
+2024-09-05 16:11:55,635 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:11:55,636 - api_key_logger - INFO - Attempt 3: Using random_seed=234
+2024-09-05 16:12:20,892 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:13:37,767 - api_key_logger - INFO - Queue starter started
+2024-09-05 16:13:37,776 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:13:37,793 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 16:13:37,799 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:13:37,815 - api_key_logger - INFO - Start Processing task:2024-09-05 16:11:47.205000
+2024-09-05 16:13:37,819 - api_key_logger - INFO - Attempt 1: Using random_seed=988
+2024-09-05 16:13:40,800 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:13:40,802 - api_key_logger - INFO - Attempt 2: Using random_seed=427
+2024-09-05 16:13:48,998 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:13:49,001 - api_key_logger - INFO - Attempt 3: Using random_seed=592
+2024-09-05 16:14:14,577 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:14:43,878 - api_key_logger - INFO - Queue starter started
+2024-09-05 16:14:43,887 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:14:43,907 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 16:14:43,913 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:14:43,929 - api_key_logger - INFO - Start Processing task:2024-09-05 16:11:47.205000
+2024-09-05 16:14:43,933 - api_key_logger - INFO - Attempt 1: Using random_seed=219
+2024-09-05 16:14:51,384 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:14:51,385 - api_key_logger - INFO - Attempt 2: Using random_seed=662
+2024-09-05 16:15:05,648 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:15:05,649 - api_key_logger - INFO - Attempt 3: Using random_seed=52
+2024-09-05 16:15:09,622 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:15:09,623 - api_key_logger - INFO - Attempt 4: Using random_seed=616
+2024-09-05 16:15:38,403 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:16:02,352 - api_key_logger - INFO - Queue starter started
+2024-09-05 16:16:02,361 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:16:02,379 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 16:16:02,385 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:16:02,402 - api_key_logger - INFO - Start Processing task:2024-09-05 16:11:47.205000
+2024-09-05 16:16:02,406 - api_key_logger - INFO - Attempt 1: Using random_seed=885
+2024-09-05 16:16:06,697 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:16:06,698 - api_key_logger - INFO - Attempt 2: Using random_seed=351
+2024-09-05 16:16:16,095 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:16:16,095 - api_key_logger - INFO - Attempt 3: Using random_seed=794
+2024-09-05 16:16:19,118 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:16:19,119 - api_key_logger - INFO - Attempt 4: Using random_seed=738
+2024-09-05 16:16:28,389 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 16:16:28,390 - api_key_logger - INFO - Attempt 5: Using random_seed=958
+2024-09-05 16:16:45,245 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 16:17:10,523 - api_key_logger - INFO - queue process done
+2024-09-05 17:13:20,245 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 17:13:20,261 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 17:13:20,282 - api_key_logger - INFO - Start Processing task:2024-09-05 17:13:17.280000
+2024-09-05 17:13:20,283 - api_key_logger - INFO - Attempt 1: Using random_seed=150
+2024-09-05 17:13:43,292 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 17:14:10,777 - api_key_logger - INFO - queue process done
+2024-09-05 17:21:31,385 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 17:21:31,401 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 17:21:31,423 - api_key_logger - INFO - Start Processing task:2024-09-05 17:21:29.533000
+2024-09-05 17:21:31,424 - api_key_logger - INFO - Attempt 1: Using random_seed=500
+2024-09-05 17:21:56,797 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 17:22:22,373 - api_key_logger - INFO - queue process done
+2024-09-05 17:58:55,415 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 17:58:55,429 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 17:58:55,450 - api_key_logger - INFO - Start Processing task:2024-09-05 17:58:50.752000
+2024-09-05 17:58:55,451 - api_key_logger - INFO - Attempt 1: Using random_seed=736
+2024-09-05 17:59:18,641 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 17:59:44,556 - api_key_logger - INFO - queue process done
+2024-09-05 18:02:24,773 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:02:24,789 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:02:24,811 - api_key_logger - INFO - Start Processing task:2024-09-05 18:02:22.639000
+2024-09-05 18:02:24,812 - api_key_logger - INFO - Attempt 1: Using random_seed=426
+2024-09-05 18:02:56,362 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:11:37,899 - api_key_logger - INFO - Queue starter started
+2024-09-05 18:11:37,909 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:11:37,929 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:11:37,934 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:11:37,951 - api_key_logger - INFO - Start Processing task:2024-09-05 18:02:22.639000
+2024-09-05 18:11:37,956 - api_key_logger - INFO - Attempt 1: Using random_seed=362
+2024-09-05 18:12:11,341 - api_key_logger - INFO - Queue starter started
+2024-09-05 18:12:11,351 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:12:26,390 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:12:26,404 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:12:26,427 - api_key_logger - INFO - Start Processing task:2024-09-05 18:12:23.166000
+2024-09-05 18:12:26,431 - api_key_logger - INFO - Attempt 1: Using random_seed=117
+2024-09-05 18:12:47,090 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:13:34,262 - api_key_logger - INFO - Queue starter started
+2024-09-05 18:13:34,272 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:13:34,290 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:13:34,295 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:13:34,313 - api_key_logger - INFO - Start Processing task:2024-09-05 18:12:23.166000
+2024-09-05 18:13:34,317 - api_key_logger - INFO - Attempt 1: Using random_seed=858
+2024-09-05 18:13:59,430 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:14:30,851 - api_key_logger - INFO - queue process done
+2024-09-05 18:14:35,856 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:14:35,872 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:14:35,894 - api_key_logger - INFO - Start Processing task:2024-09-05 18:13:52.603000
+2024-09-05 18:14:35,896 - api_key_logger - INFO - Attempt 1: Using random_seed=883
+2024-09-05 18:14:56,577 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:15:24,968 - api_key_logger - INFO - queue process done
+2024-09-05 18:40:22,031 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:40:22,046 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:40:22,066 - api_key_logger - INFO - Start Processing task:2024-09-05 18:40:21.366000
+2024-09-05 18:40:22,067 - api_key_logger - INFO - Attempt 1: Using random_seed=867
+2024-09-05 18:40:41,078 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:41:04,113 - api_key_logger - INFO - queue process done
+2024-09-05 18:47:09,596 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 18:47:09,614 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:47:09,635 - api_key_logger - INFO - Start Processing task:2024-09-05 18:47:05.764000
+2024-09-05 18:47:09,637 - api_key_logger - INFO - Attempt 1: Using random_seed=634
+2024-09-05 18:47:22,122 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 18:47:22,122 - api_key_logger - INFO - Attempt 2: Using random_seed=274
+2024-09-05 18:47:41,537 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 18:48:05,248 - api_key_logger - INFO - queue process done
+2024-09-05 19:07:16,838 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 19:07:16,854 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:07:16,875 - api_key_logger - INFO - Start Processing task:2024-09-05 19:07:13.223000
+2024-09-05 19:07:16,877 - api_key_logger - INFO - Attempt 1: Using random_seed=32
+2024-09-05 19:07:20,575 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 19:07:20,576 - api_key_logger - INFO - Attempt 2: Using random_seed=220
+2024-09-05 19:07:23,982 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 19:07:23,983 - api_key_logger - INFO - Attempt 3: Using random_seed=366
+2024-09-05 19:07:45,980 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:09:13,669 - api_key_logger - INFO - Queue starter started
+2024-09-05 19:09:13,679 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:09:13,697 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 19:09:13,702 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:09:13,720 - api_key_logger - INFO - Start Processing task: 2024-09-05 19:07:13.223000
+2024-09-05 19:09:13,724 - api_key_logger - INFO - Attempt 1: Using random_seed=850
+2024-09-05 19:09:16,843 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 19:09:16,844 - api_key_logger - INFO - Attempt 2: Using random_seed=158
+2024-09-05 19:09:19,493 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 19:09:19,494 - api_key_logger - INFO - Attempt 3: Using random_seed=663
+2024-09-05 19:09:28,554 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 19:09:28,557 - api_key_logger - INFO - Attempt 4: Using random_seed=949
+2024-09-05 19:11:52,273 - api_key_logger - INFO - Queue starter started
+2024-09-05 19:11:52,282 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:11:52,300 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 19:11:52,306 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:11:52,322 - api_key_logger - INFO - Start Processing task: 2024-09-05 19:07:13.223000
+2024-09-05 19:11:52,326 - api_key_logger - INFO - Attempt 1: Using random_seed=349
+2024-09-05 19:12:19,173 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:12:42,828 - api_key_logger - INFO - queue process done
+2024-09-05 19:19:58,446 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 19:19:58,463 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:19:58,484 - api_key_logger - INFO - Start Processing task: 2024-09-05 19:19:57.239000
+2024-09-05 19:19:58,485 - api_key_logger - INFO - Attempt 1: Using random_seed=184
+2024-09-05 19:20:16,442 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:20:44,209 - api_key_logger - INFO - queue process done
+2024-09-05 19:39:25,763 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 19:39:25,779 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:39:25,800 - api_key_logger - INFO - Start Processing task: 2024-09-05 19:39:25.077000
+2024-09-05 19:39:25,801 - api_key_logger - INFO - Attempt 1: Using random_seed=537
+2024-09-05 19:39:44,734 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 19:40:09,486 - api_key_logger - INFO - queue process done
+2024-09-05 23:05:05,461 - api_key_logger - INFO - Queue starter started
+2024-09-05 23:05:05,472 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:10:10,910 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:10:10,925 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:10:10,945 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:10:09.926000
+2024-09-05 23:10:10,950 - api_key_logger - INFO - Attempt 1: Using random_seed=551
+2024-09-05 23:10:13,722 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:10:13,724 - api_key_logger - INFO - Attempt 2: Using random_seed=184
+2024-09-05 23:10:26,146 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:10:26,147 - api_key_logger - INFO - Attempt 3: Using random_seed=772
+2024-09-05 23:10:47,379 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:10:50,878 - api_key_logger - ERROR - 오류 발생: {'errors': ['authorization: invalid or missing header value'], 'id': '64a864b58bbc32c67cd338bd575e25ee', 'name': 'unauthorized'}
+2024-09-05 23:10:50,878 - api_key_logger - ERROR - 재시도 3회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:10:55,888 - api_key_logger - INFO - Attempt 1: Using random_seed=277
+2024-09-05 23:11:15,527 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:11:18,558 - api_key_logger - ERROR - 오류 발생: {'errors': ['authorization: invalid or missing header value'], 'id': 'debe500a2794f2b9e200a438bb801e80', 'name': 'unauthorized'}
+2024-09-05 23:11:18,559 - api_key_logger - ERROR - 재시도 2회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:11:23,568 - api_key_logger - INFO - Attempt 1: Using random_seed=804
+2024-09-05 23:11:39,414 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:11:39,415 - api_key_logger - INFO - Attempt 2: Using random_seed=630
+2024-09-05 23:11:43,544 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:11:43,545 - api_key_logger - INFO - Attempt 3: Using random_seed=323
+2024-09-05 23:11:59,398 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:12:02,860 - api_key_logger - ERROR - 오류 발생: {'errors': ['authorization: invalid or missing header value'], 'id': '6adb67313141dcf322c384b33deb24ab', 'name': 'unauthorized'}
+2024-09-05 23:12:02,862 - api_key_logger - ERROR - 재시도 1회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:12:07,871 - api_key_logger - INFO - Attempt 1: Using random_seed=845
+2024-09-05 23:12:25,387 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:12:28,766 - api_key_logger - ERROR - 오류 발생: {'errors': ['authorization: invalid or missing header value'], 'id': '7d121bc2a34b553fa5e00381bc479d7f', 'name': 'unauthorized'}
+2024-09-05 23:12:28,768 - api_key_logger - ERROR - 재시도 횟수 초과. 작업을 중단합니다.
+2024-09-05 23:12:28,781 - api_key_logger - INFO - queue process done
+2024-09-05 23:12:33,787 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:12:33,804 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:12:33,825 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:10:09.926000
+2024-09-05 23:12:33,826 - api_key_logger - INFO - Attempt 1: Using random_seed=899
+2024-09-05 23:12:50,789 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:12:53,388 - api_key_logger - ERROR - 오류 발생: {'errors': ['authorization: invalid or missing header value'], 'id': '46ffbcd5647b68635d6e6623e65ada97', 'name': 'unauthorized'}
+2024-09-05 23:12:53,389 - api_key_logger - ERROR - 재시도 3회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:12:58,397 - api_key_logger - INFO - Attempt 1: Using random_seed=605
+2024-09-05 23:14:12,825 - api_key_logger - INFO - Queue starter started
+2024-09-05 23:14:12,835 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:14:17,855 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:14:17,871 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:14:17,893 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:14:17.389000
+2024-09-05 23:14:17,898 - api_key_logger - INFO - Attempt 1: Using random_seed=432
+2024-09-05 23:14:20,448 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:14:20,449 - api_key_logger - INFO - Attempt 2: Using random_seed=877
+2024-09-05 23:14:36,415 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:14:38,693 - api_key_logger - ERROR - 오류 발생: {'errors': ['authorization: invalid or missing header value'], 'id': 'bbb9703ba8bd0088f42861f123dc71d2', 'name': 'unauthorized'}
+2024-09-05 23:14:38,694 - api_key_logger - ERROR - 재시도 3회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:14:43,701 - api_key_logger - INFO - Attempt 1: Using random_seed=373
+2024-09-05 23:15:06,290 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:15:11,216 - api_key_logger - INFO - Queue starter started
+2024-09-05 23:15:11,227 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:15:11,243 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:15:11,250 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:15:11,266 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:14:17.389000
+2024-09-05 23:15:11,270 - api_key_logger - INFO - Attempt 1: Using random_seed=695
+2024-09-05 23:15:31,318 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:15:31,613 - api_key_logger - ERROR - 오류 발생: Incorrect API key provided: sk-hRcWQ***************************************7w2S. You can find your API key at https://platform.openai.com/account/api-keys.
+2024-09-05 23:15:31,614 - api_key_logger - ERROR - 재시도 3회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:15:36,624 - api_key_logger - INFO - Attempt 1: Using random_seed=617
+2024-09-05 23:15:58,077 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:15:58,342 - api_key_logger - ERROR - 오류 발생: Incorrect API key provided: sk-hRcWQ***************************************7w2S. You can find your API key at https://platform.openai.com/account/api-keys.
+2024-09-05 23:15:58,343 - api_key_logger - ERROR - 재시도 2회 남음. 5초 후 다시 시도합니다.
+2024-09-05 23:16:03,352 - api_key_logger - INFO - Attempt 1: Using random_seed=896
+2024-09-05 23:16:29,520 - api_key_logger - INFO - Queue starter started
+2024-09-05 23:16:29,535 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:16:29,557 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:16:29,562 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:16:29,579 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:14:17.389000
+2024-09-05 23:16:29,583 - api_key_logger - INFO - Attempt 1: Using random_seed=272
+2024-09-05 23:16:48,874 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:17:13,676 - api_key_logger - INFO - queue process done
+2024-09-05 23:20:13,932 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:20:13,946 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:20:13,969 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:20:09.002000
+2024-09-05 23:20:13,970 - api_key_logger - INFO - Attempt 1: Using random_seed=736
+2024-09-05 23:20:20,782 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:20:20,783 - api_key_logger - INFO - Attempt 2: Using random_seed=266
+2024-09-05 23:20:25,754 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:20:25,756 - api_key_logger - INFO - Attempt 3: Using random_seed=116
+2024-09-05 23:20:29,637 - api_key_logger - ERROR - Error parsing the output
+2024-09-05 23:20:29,638 - api_key_logger - INFO - Attempt 4: Using random_seed=852
+2024-09-05 23:20:48,661 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:21:09,887 - api_key_logger - INFO - queue process done
+2024-09-05 23:36:01,109 - api_key_logger - INFO - Element found, start queue process...
+2024-09-05 23:36:01,125 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:36:01,146 - api_key_logger - INFO - Start Processing task: 2024-09-05 23:36:00.217000
+2024-09-05 23:36:01,148 - api_key_logger - INFO - Attempt 1: Using random_seed=308
+2024-09-05 23:36:19,697 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-05 23:36:43,693 - api_key_logger - INFO - queue process done
+2024-09-06 00:05:16,079 - api_key_logger - INFO - Element found, start queue process...
+2024-09-06 00:05:16,095 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:05:16,117 - api_key_logger - INFO - Start Processing task: 2024-09-06 00:05:14.174000
+2024-09-06 00:05:16,118 - api_key_logger - INFO - Attempt 1: Using random_seed=262
+2024-09-06 00:10:14,029 - api_key_logger - INFO - Queue starter started
+2024-09-06 00:10:14,039 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:10:14,057 - api_key_logger - INFO - Element found, start queue process...
+2024-09-06 00:10:14,062 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:10:14,079 - api_key_logger - INFO - Start Processing task: 2024-09-06 00:05:14.174000
+2024-09-06 00:10:14,084 - api_key_logger - INFO - Attempt 1: Using random_seed=318
+2024-09-06 00:10:21,844 - api_key_logger - ERROR - Error parsing the output
+2024-09-06 00:10:21,846 - api_key_logger - INFO - Attempt 2: Using random_seed=913
+2024-09-06 00:10:28,248 - api_key_logger - ERROR - Error parsing the output
+2024-09-06 00:10:28,249 - api_key_logger - INFO - Attempt 3: Using random_seed=515
+2024-09-06 00:10:32,198 - api_key_logger - ERROR - Error parsing the output
+2024-09-06 00:10:32,199 - api_key_logger - INFO - Attempt 4: Using random_seed=725
+2024-09-06 00:10:53,001 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:11:17,311 - api_key_logger - INFO - queue process done
+2024-09-06 00:18:47,965 - api_key_logger - INFO - Element found, start queue process...
+2024-09-06 00:18:47,980 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:18:48,004 - api_key_logger - INFO - Start Processing task: 2024-09-06 00:18:46.090000
+2024-09-06 00:18:48,005 - api_key_logger - INFO - Attempt 1: Using random_seed=627
+2024-09-06 00:18:52,455 - api_key_logger - ERROR - Error parsing the output
+2024-09-06 00:18:52,456 - api_key_logger - INFO - Attempt 2: Using random_seed=980
+2024-09-06 00:18:56,768 - api_key_logger - ERROR - Error parsing the output
+2024-09-06 00:18:56,769 - api_key_logger - INFO - Attempt 3: Using random_seed=818
+2024-09-06 00:18:59,282 - api_key_logger - ERROR - Error parsing the output
+2024-09-06 00:18:59,283 - api_key_logger - INFO - Attempt 4: Using random_seed=783
+2024-09-06 00:19:17,418 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:19:39,522 - api_key_logger - INFO - queue process done
+2024-09-06 00:20:44,608 - api_key_logger - INFO - Element found, start queue process...
+2024-09-06 00:20:44,623 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:20:44,645 - api_key_logger - INFO - Start Processing task: 2024-09-06 00:20:43.432000
+2024-09-06 00:20:44,647 - api_key_logger - INFO - Attempt 1: Using random_seed=671
+2024-09-06 00:21:35,530 - api_key_logger - INFO - MongoDB connection successful.
+2024-09-06 00:21:58,175 - api_key_logger - INFO - queue process done

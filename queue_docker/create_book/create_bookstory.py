@@ -1,8 +1,8 @@
 from fuction_file import _log_write, _mongoDB, _watson
-from deep_translator import GoogleTranslator
 
 import openai
 import json
+import re
 
 class CREATE_STORY :
     def __init__(self, API_KEY, OPENAI_API_KEY, PROJECT_ID, MONGO_PASSWORD, task) :
@@ -63,24 +63,34 @@ class CREATE_STORY :
 
         return json.loads(response['choices'][0]['message']['content'])
 
-    def trans_result(self, preprocessed_result) :
+    def replace_braces_with_name(self, text, name):
+        # 중괄호로 감싸진 부분을 name으로 변경
+        new_text = re.sub(r'\{.*?\}', name, text)
+        return new_text
+
+    def trans_result(self, preprocessed_result, name) :
         kr_story = {}
         
         try :
             story_title = preprocessed_result['titles'] 
         except :
             story_title = preprocessed_result['title'] 
-
-        story_contents = preprocessed_result['content']
+        try : 
+            story_contents = preprocessed_result['contents']
+        except :
+            story_contents = preprocessed_result['content']
         story_options = preprocessed_result['options']
 
+        
         kr_title = self.translater(story_title)['trans']
+        kr_title = self.replace_braces_with_name(kr_title, name)
 
         kr_contents = []
         for story in story_contents :
             try:
                 if story:  # 스토리가 None이거나 빈 값이 아닌지 확인
                     eng_story = self.translater(story)['trans']
+                    eng_story = self.replace_braces_with_name(eng_story, name)
                 else:
                     eng_story = ''
                 kr_contents.append(eng_story)
@@ -93,6 +103,7 @@ class CREATE_STORY :
             try:
                 if story:  # 스토리가 None이거나 빈 값이 아닌지 확인
                     eng_story = self.translater(story)['trans']
+                    eng_story = self.replace_braces_with_name(eng_story, name)
                 else:
                     eng_story = ''
                 kr_options.append(eng_story)
@@ -107,6 +118,7 @@ class CREATE_STORY :
         return kr_story
     
     def create_book(self) :
+        name = self.task['name']
         age = self.task['age']
         sex = self.task['sex']
         theme = self.task['thema']
@@ -118,6 +130,7 @@ class CREATE_STORY :
             sys_prompt = f.read()
         
         results = self.use_watsonx(prompt, sys_prompt)
-        kr_story = self.trans_result(results)
+        print(results)
+        kr_story = self.trans_result(results, name)
         
         return results, kr_story

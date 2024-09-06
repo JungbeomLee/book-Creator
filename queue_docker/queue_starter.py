@@ -2,6 +2,10 @@ from fuction_file import _mongoDB, _key_loader, _log_write
 
 import queue_processing
 import time
+import os
+
+current_path = os.path.dirname(os.path.realpath(__file__))
+os.chdir(current_path)
 
 def star_first_queue() :
     queue = queue_processing.QUEUE_PROCESSING()
@@ -16,6 +20,8 @@ if __name__ == "__main__" :
     MONGO_PASSWORD = _key_loader.mongodb_password()
     client = mongo_client(MONGO_PASSWORD)
 
+    client.server_info()  # 연결 확인
+
     db = client['cbook']
     queue = db['cbookCreateQueue']
 
@@ -25,8 +31,6 @@ if __name__ == "__main__" :
             _log_write.write_log(200, "Element found, start queue process...")
             star_first_queue()
             _log_write.write_log(200, "queue process done")
-            if 'client' in locals():
-                client.close()
 
         # 5초 대기
         time.sleep(5)

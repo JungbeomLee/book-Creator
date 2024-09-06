@@ -19,6 +19,8 @@ def create_app() :
     from views.request import post_image
     from views.request import post_createBook
     from views.request import post_bookCP
+    from views.request import post_book
+    from views.request import post_pastCreateBook
 
     app.register_blueprint(flask_main.bp)
     app.register_blueprint(flask_upload_info.bp)
@@ -30,6 +32,8 @@ def create_app() :
     app.register_blueprint(post_image.bp)
     app.register_blueprint(post_createBook.bp)
     app.register_blueprint(post_bookCP.bp)
+    app.register_blueprint(post_book.bp)
+    app.register_blueprint(post_pastCreateBook.bp)
 
     return app
 
@@ -62,4 +66,4 @@ if __name__ == '__main__':
     # watsonx && mongoDB status check
     if status['watsonx_api_key'] == 200 and status['mongoDB'] == 200 :
         app = create_app()
-        app.run(port=8000,  host='0.0.0.0', debug=True)
+        app.run(port=5000,  host='0.0.0.0', debug=True)

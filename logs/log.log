@@ -1200,3 +1200,334 @@
 2024-09-05 21:14:05,522 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
 2024-09-05 21:14:34,035 - api_key_logger - INFO - ServerStart(API connect): Connection successful.
 2024-09-05 21:14:34,036 - api_key_logger - INFO - ServerStart(DB connect): Connection successful.
+2024-09-05 11:28:33,937 - api_key_logger - ERROR - ServerStart(API connect) : Connection failed: Error getting IAM Token.
+Reason: <Response [400]>
+2024-09-05 11:29:04,041 - api_key_logger - ERROR - ServerStart(DB connect) : Connection ping failed: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66d9dc318a090a0655877a3e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-05 11:29:04,041 - api_key_logger - ERROR - ServerStart(API connect): Connection failed with status 500
+2024-09-05 11:29:04,042 - api_key_logger - ERROR - ServerStart(DB connect): Connection failed with status 500
+2024-09-05 11:48:49,301 - api_key_logger - ERROR - cBookInfoInsert(info insert) : Error occurred while saving 김철수: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2024-09-05 11:48:55,617 - api_key_logger - ERROR - cBookInfoInsert(info insert) : Error occurred while saving 김철수: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2024-09-05 12:00:51,625 - api_key_logger - ERROR - cBookInfoInsert(info insert) : Error occurred while saving 김철수: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2024-09-05 12:03:02,966 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김철수
+2024-09-05 12:04:37,048 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 12:51:01,554 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김철수
+2024-09-05 12:57:06,068 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 12:57:09,114 - api_key_logger - INFO - Enqueued: 2024-09-05 12:57:09.028569
+2024-09-05 13:26:23,629 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 김철수
+2024-09-05 13:26:29,887 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 13:26:32,636 - api_key_logger - INFO - Enqueued: 2024-09-05 13:26:32.585433
+2024-09-05 13:45:32,898 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 13:45:38,489 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 13:45:40,776 - api_key_logger - INFO - Enqueued: 2024-09-05 13:45:40.726222
+2024-09-05 13:53:13,111 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 13:53:18,731 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 13:53:21,089 - api_key_logger - INFO - Enqueued: 2024-09-05 13:53:21.057009
+2024-09-05 14:03:01,885 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:05:03,537 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:08:16,315 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:08:55,607 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:13:14,162 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:16:52,613 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:17:07,243 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:18:17,058 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:22:33,123 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:23:05,672 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:24:52,999 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '/root/book-Creator/queue_docker/stroy_images'
+2024-09-05 14:25:29,106 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '/root/book-Creator/queue_docker/stroy_images'
+2024-09-05 14:25:40,692 - api_key_logger - INFO - Successfully loaded story for cookie: 00bc4f69-05e8-4969-9e81-20b36427fd39
+2024-09-05 14:26:19,271 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 14:26:21,654 - api_key_logger - ERROR - Error in get_makebook: 'NoneType' object is not subscriptable
+2024-09-05 14:26:28,189 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 14:26:33,991 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 14:26:36,493 - api_key_logger - INFO - Enqueued: 2024-09-05 14:26:36.461308
+2024-09-05 14:36:32,807 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: 'static/stroy_images'
+2024-09-05 14:37:38,535 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: 'static/stroy_images'
+2024-09-05 14:39:52,677 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: 'static/stroy_images'
+2024-09-05 14:41:19,182 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: 'static/stroy_images'
+2024-09-05 14:41:40,299 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: 'static/stroy_images'
+2024-09-05 14:41:59,351 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: 'static/stroy_images'
+2024-09-05 14:42:35,015 - api_key_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../static/stroy_images'
+2024-09-05 14:43:51,642 - api_key_logger - INFO - Successfully loaded story for cookie: d004c2c8-80ac-4820-932e-b262e8259ca0
+2024-09-05 14:46:17,053 - api_key_logger - INFO - Successfully loaded story for cookie: d004c2c8-80ac-4820-932e-b262e8259ca0
+2024-09-05 14:47:31,114 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 14:47:36,681 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 14:48:49,127 - api_key_logger - INFO - Enqueued: 2024-09-05 14:48:49.071633
+2024-09-05 14:50:05,775 - api_key_logger - INFO - Successfully loaded story for cookie: afa23a5c-2284-4484-83d0-c8cc34901322
+2024-09-05 14:52:02,370 - api_key_logger - INFO - Successfully loaded story for cookie: afa23a5c-2284-4484-83d0-c8cc34901322
+2024-09-05 14:52:23,170 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 14:53:29,525 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 14:53:39,296 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 14:54:18,484 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 14:54:52,062 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 14:54:57,074 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 14:54:59,280 - api_key_logger - INFO - Enqueued: 2024-09-05 14:54:59.247888
+2024-09-05 14:58:20,723 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 14:59:26,854 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:00:28,270 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:07:58,427 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:10:02,849 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:11:19,743 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:14:05,452 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:14:44,894 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:17:28,203 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:19:59,187 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:21:42,021 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:22:03,295 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:23:09,326 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:23:43,384 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:23:58,653 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:24:03,355 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:27:04,867 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:28:01,938 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:30:51,646 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:32:26,292 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:36:16,165 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:36:33,137 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:36:48,250 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:37:31,328 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:38:47,036 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:41:32,143 - api_key_logger - INFO - Successfully loaded story for cookie: c3497f74-a817-4e9c-9c41-a21ed207c403
+2024-09-05 15:41:41,485 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:41:46,041 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:42:03,338 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:42:44,572 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:42:49,341 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:42:50,866 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:43:53,308 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 15:44:08,740 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 15:44:28,949 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 15:44:29,633 - api_key_logger - INFO - Existing file deleted: upload_images/0b50aece-5525-412d-a07d-8d5c6b8e7a45.png
+2024-09-05 15:44:29,637 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 15:44:34,416 - api_key_logger - INFO - Enqueued: 2024-09-05 15:44:34.376881
+2024-09-05 15:45:35,642 - api_key_logger - INFO - Successfully loaded story for cookie: 0b50aece-5525-412d-a07d-8d5c6b8e7a45
+2024-09-05 15:46:41,634 - api_key_logger - INFO - Successfully loaded story for cookie: 0b50aece-5525-412d-a07d-8d5c6b8e7a45
+2024-09-05 15:50:33,590 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:50:58,936 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:51:40,825 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:51:50,555 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:51:52,970 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:52:13,493 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:52:37,139 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 15:52:43,902 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 15:52:46,153 - api_key_logger - INFO - Enqueued: 2024-09-05 15:52:46.122738
+2024-09-05 15:54:34,976 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:01,094 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:05,542 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:06,759 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:07,678 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:09,346 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:10,630 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:11,446 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:16,959 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:17,507 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:40,043 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:44,412 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:56:54,697 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:57:03,191 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:57:36,943 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:57:41,376 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:57:46,308 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:58:03,751 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 15:58:08,984 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 15:58:11,296 - api_key_logger - INFO - Enqueued: 2024-09-05 15:58:11.256783
+2024-09-05 15:59:02,187 - api_key_logger - ERROR - No cookie provided
+2024-09-05 15:59:51,501 - api_key_logger - ERROR - No cookie provided
+2024-09-05 16:00:09,144 - api_key_logger - ERROR - No cookie provided
+2024-09-05 16:00:19,897 - api_key_logger - ERROR - No cookie provided
+2024-09-05 16:00:50,163 - api_key_logger - ERROR - No cookie provided
+2024-09-05 16:02:41,127 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 16:03:23,912 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 16:03:30,244 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:03:33,894 - api_key_logger - INFO - Enqueued: 2024-09-05 16:03:33.861598
+2024-09-05 16:04:27,292 - api_key_logger - INFO - Successfully loaded story for cookie: d6175de9-6489-436e-ab3a-db3abe47fb17
+2024-09-05 16:11:19,758 - api_key_logger - INFO - Successfully loaded story for cookie: d6175de9-6489-436e-ab3a-db3abe47fb17
+2024-09-05 16:11:26,332 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 16:11:32,579 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 16:11:47,246 - api_key_logger - INFO - Enqueued: 2024-09-05 16:11:47.205973
+2024-09-05 16:17:35,286 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:18:33,483 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:21:27,300 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:37:44,659 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:39:05,043 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:40:12,835 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:41:18,644 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:42:13,343 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:44:14,602 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:46:03,258 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:46:23,248 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:46:36,555 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:46:48,361 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:47:30,616 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:50:57,757 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:54:00,817 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:54:05,439 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:54:09,036 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:55:26,772 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:55:48,023 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:56:11,487 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:56:33,791 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:56:47,364 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:56:55,334 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:58:10,807 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:58:46,396 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:58:51,820 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 16:59:22,775 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:00:34,257 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:02:24,078 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:02:56,076 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:03:03,245 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:05:30,682 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:05:59,012 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:06:20,583 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:06:27,110 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:06:29,572 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:06:37,116 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:06:42,923 - api_key_logger - INFO - Successfully loaded story for cookie: 429bc29d-9957-49e0-b37b-32bcd9077bf1
+2024-09-05 17:12:41,233 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 17:13:08,425 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 17:13:13,920 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:13:17,308 - api_key_logger - INFO - Enqueued: 2024-09-05 17:13:17.280585
+2024-09-05 17:14:14,552 - api_key_logger - INFO - Successfully loaded story for cookie: 283e8605-7a6f-4c5b-a486-1bc860928f90
+2024-09-05 17:15:59,955 - api_key_logger - INFO - Successfully loaded story for cookie: 283e8605-7a6f-4c5b-a486-1bc860928f90
+2024-09-05 17:18:01,310 - api_key_logger - INFO - Successfully loaded story for cookie: 283e8605-7a6f-4c5b-a486-1bc860928f90
+2024-09-05 17:18:15,691 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 17:21:08,077 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 17:21:20,195 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 17:21:26,025 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:21:29,564 - api_key_logger - INFO - Enqueued: 2024-09-05 17:21:29.533174
+2024-09-05 17:22:27,545 - api_key_logger - INFO - Successfully loaded story for cookie: ca5c8c1b-da40-4f48-9954-cd16433b5030
+2024-09-05 17:58:42,157 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 17:58:47,113 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 17:58:50,799 - api_key_logger - INFO - Enqueued: 2024-09-05 17:58:50.752240
+2024-09-05 17:59:48,492 - api_key_logger - INFO - Successfully loaded story for cookie: fea4cc97-27a2-4dba-ab23-a18b4cdec17c
+2024-09-05 18:00:02,695 - api_key_logger - INFO - Enqueued: 2024-09-05 18:00:02.647539
+2024-09-05 18:01:54,138 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 18:02:12,224 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 18:02:19,369 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:02:22,685 - api_key_logger - INFO - Enqueued: 2024-09-05 18:02:22.639813
+2024-09-05 18:12:13,080 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 정범
+2024-09-05 18:12:19,542 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:12:23,212 - api_key_logger - INFO - Enqueued: 2024-09-05 18:12:23.166999
+2024-09-05 18:13:43,205 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 철수
+2024-09-05 18:13:49,034 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:13:52,635 - api_key_logger - INFO - Enqueued: 2024-09-05 18:13:52.603648
+2024-09-05 18:15:31,169 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:15:36,563 - api_key_logger - ERROR - Error in get_makebook: local variable 'selected_option' referenced before assignment
+2024-09-05 18:16:46,553 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:16:48,612 - api_key_logger - ERROR - Error in get_makebook: local variable 'selected_option' referenced before assignment
+2024-09-05 18:16:53,470 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:17:17,512 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:17:21,043 - api_key_logger - INFO - Enqueued: 2024-09-05 18:17:20.987597
+2024-09-05 18:25:01,969 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:25:35,009 - api_key_logger - INFO - Enqueued: 2024-09-05 18:25:34.959208
+2024-09-05 18:26:08,217 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:26:10,610 - api_key_logger - INFO - Enqueued: 2024-09-05 18:26:10.572318
+2024-09-05 18:27:32,426 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:27:35,522 - api_key_logger - INFO - Enqueued: 2024-09-05 18:27:35.472897
+2024-09-05 18:35:08,956 - api_key_logger - INFO - Successfully loaded story for cookie: eebc02ee-aa25-4981-b13b-ffe6e9f5c3f7
+2024-09-05 18:35:23,384 - api_key_logger - INFO - Enqueued: 2024-09-05 18:35:23.352815
+2024-09-05 18:40:01,850 - api_key_logger - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2024-09-05 18:40:11,199 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 철수
+2024-09-05 18:40:18,002 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:40:21,423 - api_key_logger - INFO - Enqueued: 2024-09-05 18:40:21.366493
+2024-09-05 18:41:09,423 - api_key_logger - INFO - Successfully loaded story for cookie: fcdd95de-5295-44f6-b50f-40fded1b5bf0
+2024-09-05 18:42:18,657 - api_key_logger - INFO - Successfully loaded story for cookie: fcdd95de-5295-44f6-b50f-40fded1b5bf0
+2024-09-05 18:42:31,544 - api_key_logger - INFO - Successfully loaded story for cookie: fcdd95de-5295-44f6-b50f-40fded1b5bf0
+2024-09-05 18:42:54,291 - api_key_logger - INFO - Enqueued: 2024-09-05 18:42:54.239560
+2024-09-05 18:42:59,035 - api_key_logger - INFO - Enqueued: 2024-09-05 18:42:59.007432
+2024-09-05 18:46:55,734 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 18:47:02,033 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 18:47:05,817 - api_key_logger - INFO - Enqueued: 2024-09-05 18:47:05.764403
+2024-09-05 18:48:09,032 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:48:16,999 - api_key_logger - INFO - Enqueued: 2024-09-05 18:48:16.953013
+2024-09-05 18:49:51,397 - api_key_logger - INFO - Enqueued: 2024-09-05 18:49:51.356378
+2024-09-05 18:50:30,875 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:50:50,663 - api_key_logger - INFO - Enqueued: 2024-09-05 18:50:50.624580
+2024-09-05 18:53:01,719 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:53:09,609 - api_key_logger - INFO - Enqueued: 2024-09-05 18:53:09.581119
+2024-09-05 18:53:15,655 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:54:18,454 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:57:16,885 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:57:20,132 - api_key_logger - INFO - Enqueued: 2024-09-05 18:57:20.099346
+2024-09-05 18:58:17,038 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 18:58:46,082 - api_key_logger - INFO - Enqueued: 2024-09-05 18:58:46.052039
+2024-09-05 19:00:34,847 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:00:34,847 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:00:35,561 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:00:35,577 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:00:35,599 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:00:35,608 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:01:52,650 - api_key_logger - INFO - Enqueued: 2024-09-05 19:01:52.619776
+2024-09-05 19:02:39,331 - api_key_logger - INFO - Successfully loaded story for cookie: 3731daee-5b95-4464-b675-3770d3fb8b59
+2024-09-05 19:07:04,006 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 19:07:10,222 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 19:07:13,278 - api_key_logger - INFO - Enqueued: 2024-09-05 19:07:13.223320
+2024-09-05 19:12:46,038 - api_key_logger - INFO - Successfully loaded story for cookie: 4699d4a9-11d4-4688-85c8-ad12ab9b8b5a
+2024-09-05 19:13:03,109 - api_key_logger - INFO - Enqueued: 2024-09-05 19:13:03.061431
+2024-09-05 19:13:54,340 - api_key_logger - INFO - Successfully loaded story for cookie: 4699d4a9-11d4-4688-85c8-ad12ab9b8b5a
+2024-09-05 19:15:45,399 - api_key_logger - INFO - Successfully loaded story for cookie: 4699d4a9-11d4-4688-85c8-ad12ab9b8b5a
+2024-09-05 19:19:46,987 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 19:19:54,024 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 19:19:57,278 - api_key_logger - INFO - Enqueued: 2024-09-05 19:19:57.239010
+2024-09-05 19:20:50,008 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:21:11,228 - api_key_logger - INFO - Enqueued: 2024-09-05 19:21:11.196530
+2024-09-05 19:21:57,330 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:25:55,935 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:26:46,192 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:26:55,725 - api_key_logger - INFO - Enqueued: 2024-09-05 19:26:55.691621
+2024-09-05 19:27:51,837 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:28:13,122 - api_key_logger - INFO - Enqueued: 2024-09-05 19:28:13.092918
+2024-09-05 19:28:59,215 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:29:38,676 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:29:50,027 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:30:05,677 - api_key_logger - INFO - Enqueued: 2024-09-05 19:30:05.646443
+2024-09-05 19:30:46,890 - api_key_logger - INFO - Successfully loaded story for cookie: 6a6326bc-2078-4a50-adad-7797370cab87
+2024-09-05 19:38:15,559 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 유리
+2024-09-05 19:39:22,710 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 19:39:25,135 - api_key_logger - INFO - Enqueued: 2024-09-05 19:39:25.077501
+2024-09-05 19:40:11,210 - api_key_logger - INFO - Successfully loaded story for cookie: 7c1e091e-d4d7-4fa8-ad55-83b77cbcbd02
+2024-09-05 19:40:26,353 - api_key_logger - INFO - Enqueued: 2024-09-05 19:40:26.321260
+2024-09-05 19:41:12,828 - api_key_logger - INFO - Successfully loaded story for cookie: 7c1e091e-d4d7-4fa8-ad55-83b77cbcbd02
+2024-09-05 19:42:03,280 - api_key_logger - INFO - Enqueued: 2024-09-05 19:42:03.238368
+2024-09-05 19:42:49,017 - api_key_logger - INFO - Successfully loaded story for cookie: 7c1e091e-d4d7-4fa8-ad55-83b77cbcbd02
+2024-09-05 23:09:54,475 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 이정범
+2024-09-05 23:10:07,278 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 23:10:09,969 - api_key_logger - INFO - Enqueued: 2024-09-05 23:10:09.926976
+2024-09-05 23:13:57,404 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 23:14:03,626 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 23:14:17,437 - api_key_logger - INFO - Enqueued: 2024-09-05 23:14:17.389020
+2024-09-05 23:17:20,624 - api_key_logger - ERROR - An error occurred: [Errno 5] Input/output error
+2024-09-05 23:18:27,970 - api_key_logger - ERROR - An error occurred: [Errno 5] Input/output error
+2024-09-05 23:19:59,582 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 23:20:05,991 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 23:20:09,031 - api_key_logger - INFO - Enqueued: 2024-09-05 23:20:09.002479
+2024-09-05 23:21:13,360 - api_key_logger - INFO - Successfully loaded story for cookie: 8a25ce3c-ebc2-406d-81b8-941f59c9e37f
+2024-09-05 23:22:13,680 - api_key_logger - INFO - Enqueued: 2024-09-05 23:22:13.630076
+2024-09-05 23:23:21,729 - api_key_logger - INFO - Successfully loaded story for cookie: 8a25ce3c-ebc2-406d-81b8-941f59c9e37f
+2024-09-05 23:25:58,059 - api_key_logger - INFO - Successfully loaded story for cookie: 8a25ce3c-ebc2-406d-81b8-941f59c9e37f
+2024-09-05 23:26:06,860 - api_key_logger - INFO - Enqueued: 2024-09-05 23:26:06.826918
+2024-09-05 23:26:53,452 - api_key_logger - INFO - Successfully loaded story for cookie: 8a25ce3c-ebc2-406d-81b8-941f59c9e37f
+2024-09-05 23:27:25,394 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 23:27:35,101 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 23:35:49,389 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-05 23:35:56,844 - api_key_logger - INFO - Successfully uploaded
+2024-09-05 23:36:00,249 - api_key_logger - INFO - Enqueued: 2024-09-05 23:36:00.217962
+2024-09-05 23:36:47,135 - api_key_logger - ERROR - An error occurred: [Errno 5] Input/output error
+2024-09-06 00:03:57,721 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-06 00:04:32,878 - api_key_logger - INFO - Successfully uploaded
+2024-09-06 00:05:14,221 - api_key_logger - INFO - Enqueued: 2024-09-06 00:05:14.174505
+2024-09-06 00:11:22,051 - api_key_logger - INFO - Successfully loaded story for cookie: 39eaec0e-59ea-4809-b24c-4c8127306a0b
+2024-09-06 00:12:47,371 - api_key_logger - INFO - Enqueued: 2024-09-06 00:12:47.328616
+2024-09-06 00:13:44,169 - api_key_logger - INFO - Successfully loaded story for cookie: 39eaec0e-59ea-4809-b24c-4c8127306a0b
+2024-09-06 00:17:46,159 - api_key_logger - INFO - Successfully loaded story for cookie: 39eaec0e-59ea-4809-b24c-4c8127306a0b
+2024-09-06 00:17:47,077 - api_key_logger - INFO - Successfully loaded story for cookie: 39eaec0e-59ea-4809-b24c-4c8127306a0b
+2024-09-06 00:18:34,978 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-06 00:18:42,058 - api_key_logger - INFO - Successfully uploaded
+2024-09-06 00:18:46,122 - api_key_logger - INFO - Enqueued: 2024-09-06 00:18:46.090485
+2024-09-06 00:19:43,244 - api_key_logger - INFO - Successfully loaded story for cookie: c5fe5ebd-fb91-4a47-a20b-3f3ff52df2a9
+2024-09-06 00:20:19,055 - api_key_logger - INFO - cBookInfoInsert(info insert) : Successfully saved 짱구
+2024-09-06 00:20:39,554 - api_key_logger - INFO - Successfully uploaded
+2024-09-06 00:20:43,465 - api_key_logger - INFO - Enqueued: 2024-09-06 00:20:43.432370
+2024-09-06 00:22:00,645 - api_key_logger - INFO - Successfully loaded story for cookie: 9fb1a98e-717f-46bb-be27-547726a4f9b6
+2024-09-06 00:22:22,328 - api_key_logger - INFO - Enqueued: 2024-09-06 00:22:22.300394
+2024-09-06 00:23:08,403 - api_key_logger - INFO - Successfully loaded story for cookie: 9fb1a98e-717f-46bb-be27-547726a4f9b6

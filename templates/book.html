@@ -1,19 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <title>동화책</title>
     <link rel="stylesheet" href="../static/css/book.css">
 </head>
-
 <body>
-    <div class="jch-flipbook jch-flipbook-container">
-        <div id="jch-flipbook-prev">
-            <span class="fa-solid fa-hand-point-left"></span>
-        </div>
-        <div id="jch-flipbook-next">
-            <span class="fa-solid fa-hand-point-right"></span>
-        </div>
+
+<!-- 로딩 컨테이너 (로딩 화면) -->
+<div class="loading_spinner" id="loading_spinner">
+    <div class="spinner"></div>
+    <p>로딩 중...</p>
+</div>
+
+<!-- 동화책 컨텐츠를 표시하는 컨테이너 -->
+<div class="story-container" id="story-container">
+    <h1 class="story-title" id="story-title"></h1>
+    <div class="story-content-background">
+        <p id="story-content" class="story-content"></p>
     </div>
-    <script src="../static/js/book.js"></script>
-    <span id="jch-flipbook-output"></span>
+    <div class="options-container">
+        <button class="option-button" id="option1"></button>
+        <button class="option-button" id="option2"></button>
+    </div>
+</div>
+
+<script src="../static/js/book.js"></script>
+
 </body>
+</html>

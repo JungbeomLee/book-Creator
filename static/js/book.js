@@ -1,156 +1,202 @@
-let results = [];
+let storyData = [];
+let loadingSpinner;
 
-function loadBook() {
-    fetch('/get/story', {
-        method: 'GET'
-    })
-    .then(res => res.json())
-    .then(data => {
-        if(data['load_book'] === true){
-            results = data['story_list'];
-            console.log('hi', results);
-            renderFlipbook();  // Call the function to render the flipbook after the data is loaded
-        }
-    })
-    .catch(error => console.error('Error loading book:', error));
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+    return null;
 }
 
-function renderFlipbook() {
-    const container = document.querySelector('.jch-flipbook-container');
-
-    for (let i = 0; i < Math.floor(results.length / 2) + 1; i++) {
-        const pageNum = i * 2;
-        
-        const flipbookPage = document.createElement('div');
-        flipbookPage.className = "jch-flipbook-page";
-        flipbookPage.setAttribute('data-page', pageNum.toString());
-
-        if (i === 0) {
-            flipbookPage.id = 'first';
-        }
-
-        const flipbookBack = document.createElement('div');
-        flipbookBack.classList.add('jch-flipbook-back', 'jch-flipbook-theme', `jch-flipbook-theme-${i+1}`);
-        if (i !== 0) {
-            flipbookBack.setAttribute('data-page', (pageNum + 1).toString());
-        }
-
-        const flipbookFront = document.createElement('div');
-        flipbookFront.classList.add('jch-flipbook-front', 'jch-flipbook-theme', `jch-flipbook-theme-${i}`);
-
-        const flipbookOuterBack = document.createElement('div');
-        flipbookOuterBack.className = 'jch-flipbook-outer';
-
-        const flipbookContentBack = document.createElement('div');
-        flipbookContentBack.className = 'jch-flipbook-content';
-
-        const img1 = document.createElement('img');
-
-        if (i === 0) {
-            const h5 = document.createElement('h5');
-            h5.textContent = results[0];
-            img1.src = '../static/images/story_image/generated_image1.png';
-            flipbookContentBack.appendChild(h5);
+function toggleLoading(show) {
+    if (loadingSpinner) {
+        if (show) {
+            loadingSpinner.style.display = 'block';  // 로딩 스피너 표시
         } else {
-            const p = document.createElement('p');
-            p.textContent = results[pageNum];
-            img1.src = `../static/images/story_image/generated_image${pageNum+1}.png`;
-            flipbookContentBack.appendChild(p);
-        } 
-        img1.alt = '';
-        flipbookOuterBack.appendChild(img1)
-        flipbookOuterBack.appendChild(flipbookContentBack);
-        flipbookBack.appendChild(flipbookOuterBack);
-
-        const flipbookOuterFront = document.createElement('div');
-        flipbookOuterFront.className = 'jch-flipbook-outer';
-
-        const flipbookContentFront = document.createElement('div');
-        flipbookContentFront.className = 'jch-flipbook-content';
-
-        const img2 = document.createElement('img');
-
-        if (i === 0) {
-            const h5 = document.createElement('h5');
-            h5.textContent = results[0];
-            flipbookContentFront.appendChild(h5);
-        } else {
-            const p = document.createElement('p');
-            p.textContent = results[pageNum - 1];
-            img2.src = `../static/images/story_image/generated_image${pageNum}.png`;
-            flipbookContentFront.appendChild(p);
+            loadingSpinner.style.display = 'none';  // 로딩 스피너 숨기기
         }
+    } else {
+        console.error("loading_spinner를 찾을 수 없습니다.");
+    }
+}
 
-        img2.alt = '';
-        flipbookOuterFront.appendChild(img2)
-        flipbookOuterFront.appendChild(flipbookContentFront);
-        flipbookFront.appendChild(flipbookOuterFront);
+function loadBook() {
+    toggleLoading(true); // 로딩 시작
 
-        if (i === 0) {
-            flipbookPage.appendChild(flipbookBack);
-            container.appendChild(flipbookPage);
-        } else {
-            flipbookPage.appendChild(flipbookFront);
-            flipbookPage.appendChild(flipbookBack);
-            container.appendChild(flipbookPage);
+    let formData = new FormData();
+    let uniqueKey = getCookie('unique_key');
+    formData.append('unique_key', uniqueKey);
+
+    console.log('POST 요청 보냄: /post/story');
+    fetch('/post/story', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('POST 응답 받음: /post/story');
+        if (data['load_book'] === true) {
+            storyData = data;
+
+            // 배경 이미지 설정
+            document.querySelector('.story-container').style.backgroundImage = `url('../static/story_images/${storyData.image_path}')`;
+
+            // 동화 제목 설정
+            document.getElementById('story-title').innerText = storyData.title;
+
+            // 동화 내용 설정
+            document.getElementById('story-content').innerText = storyData.story;
+
+            // 옵션 설정
+            document.getElementById('option1').innerText = storyData.options[0];
+            document.getElementById('option2').innerText = storyData.options[1];
+
+            document.getElementById('option1').onclick = function() {
+                toggleLoading(true);  // 옵션 클릭 시 로딩 스피너 표시
+                getMakeBookStatus(storyData.options[0], uniqueKey);
+            };
+
+            document.getElementById('option2').onclick = function() {
+                toggleLoading(true);  // 옵션 클릭 시 로딩 스피너 표시
+                getMakeBookStatus(storyData.options[1], uniqueKey);
+            };
         }
-    }
-
-    const pages = document.querySelectorAll("[data-page]");
-    const numPages = pages.length;
-    let current = 1;
-
-    function init() {
-        sortZ();
-    }
-
-    init();
-
-    const paperSound = new Audio('../static/js/paperSound.mp3');
-
-    const prev = document.getElementById("jch-flipbook-prev");
-    const next = document.getElementById("jch-flipbook-next");
-
-    prev.addEventListener("click", prevPage);
-    next.addEventListener("click", nextPage);
-
-    function prevPage(event) {
-        paperSound.play();
-        current -= 2;
-        if (current < 1) current = 1;
-        turn(pages[current], 0);
-        sortZ();
-    }
-
-    function nextPage(event) {
-        console.log("next");
-        paperSound.play();
-        if (current < numPages - 1) turn(pages[current], -180);
-        current += 2;
-        if (current > numPages) current = numPages - 1;
-        setTimeout(function () {
-            sortZ();
-        }, 1000);
-    }
-
-    function turn(page, angle) {
-        page.style.transform = `rotateY(${angle}deg)`;
-    }
-
-    function sortZ() {
-        for (let i = 0; i < numPages; i++) {
-            pages[i].style.zIndex = (i > current + 1) ? 3 : 100 + i;
-        }
-    }
-    
-    const imgElements = document.querySelectorAll('.jch-flipbook-content');
-    imgElements.forEach((img, index) => {
-        img.addEventListener('click', (event) => {
-            event.stopPropagation(); // 이벤트 전파 방지
-
-            console.log(`Image ${index} clicked`)
-        });
+        toggleLoading(false); // 로딩 종료
+    })
+    .catch(error => {
+        console.error('Error loading story:', error);
+        toggleLoading(false); // 로딩 종료
     });
 }
 
-window.onload = loadBook;
+function getMakeBookStatus(selectedOption, uniqueKey) {
+    let formData = new FormData();
+    formData.append('unique_key', uniqueKey);
+    formData.append('selected_option', selectedOption);
+
+    console.log(`POST 요청 보냄: /post/makebookmore (option: ${selectedOption})`);
+    fetch('/post/makebookmore', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('POST 응답 받음: /post/makebookmore');
+        if (data['create_book'] === 200) {
+            checkMakeBookStatus(uniqueKey, selectedOption);  // 상태 체크 시작
+        } else {
+            toggleLoading(false);   
+            alert('요청을 처리하는 중 오류가 발생했습니다.');
+        }
+    })
+    .catch(error => {
+        console.error('Error during initial request:', error);
+        toggleLoading(false);
+    });
+}
+
+function checkMakeBookStatus(uniqueKey, selectedOption) {
+    const interval = setInterval(() => {
+        let formData = new FormData();
+        formData.append('unique_key', uniqueKey);
+        formData.append('selected_option', selectedOption);
+
+        console.log(`POST 요청 보냄: /post/bookcp (option: ${selectedOption})`);
+        fetch('/post/bookcp', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('POST 응답 받음: /post/bookcp');
+            if (data['status'] === 'completed') {
+                clearInterval(interval);  // 주기적인 요청 중지
+                sendOptionAndReload(selectedOption, uniqueKey);  // 완료 후 책 로드
+            }
+        })
+        .catch(error => {
+            clearInterval(interval);
+            console.error('Error checking status:', error);
+            alert('상태 확인 중 오류가 발생했습니다.');
+        });
+    }, 5000);  // 5초마다 요청
+}
+
+function sendOptionAndReload(selectedOption, uniqueKey) {
+    let formData = new FormData();
+    formData.append('unique_key', uniqueKey);
+    formData.append('selected_option', selectedOption);
+
+    console.log(`POST 요청 보냄: /post/story (option: ${selectedOption})`);
+    fetch('/post/story', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('POST 응답 받음: /post/story');
+        console.log(data); // 응답 데이터 로그 출력
+
+        if (data['load_book'] === true) {
+            storyData = data;
+            console.log('받은 storyData:', storyData);  // 받은 데이터를 확인
+
+            // 화면 업데이트 (각 요소 업데이트 확인)
+            document.querySelector('.story-container').style.backgroundImage = `url('../static/story_images/${storyData.image_path}')`;
+            
+            // 제목 업데이트
+            let titleElement = document.getElementById('story-title');
+            if (titleElement) {
+                titleElement.innerText = storyData.title;
+            } else {
+                console.error("제목 요소가 없습니다.");
+            }
+
+            // 내용 업데이트
+            let contentElement = document.getElementById('story-content');
+            if (contentElement) {
+                contentElement.innerText = storyData.story;
+            } else {
+                console.error("내용 요소가 없습니다.");
+            }
+
+            // 옵션 1 업데이트
+            let option1Element = document.getElementById('option1');
+            if (option1Element) {
+                option1Element.innerText = storyData.options[0];
+                option1Element.onclick = function() {
+                    toggleLoading(true);  // 옵션 클릭 시 로딩 스피너 표시
+                    getMakeBookStatus(storyData.options[0], uniqueKey);
+                };
+            } else {
+                console.error("옵션 1 요소가 없습니다.");
+            }
+
+            // 옵션 2 업데이트
+            let option2Element = document.getElementById('option2');
+            if (option2Element) {
+                option2Element.innerText = storyData.options[1];
+                option2Element.onclick = function() {
+                    toggleLoading(true);  // 옵션 클릭 시 로딩 스피너 표시
+                    getMakeBookStatus(storyData.options[1], uniqueKey);
+                };
+            } else {
+                console.error("옵션 2 요소가 없습니다.");
+            }
+
+        } else {
+            console.error("책을 로드하는 데 실패했습니다.");
+        }
+        toggleLoading(false);  // 로딩 스피너 숨김
+    })
+    .catch(error => {
+        console.error('Error reloading story:', error);
+        toggleLoading(false);
+    });
+}
+
+// DOM이 완전히 로드된 후 실행
+window.onload = function() {
+    loadingSpinner = document.getElementById('loading_spinner');
+    loadBook();
+};
